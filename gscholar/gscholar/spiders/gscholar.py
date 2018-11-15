@@ -16,10 +16,10 @@ from scrapy import signals
 class GoogleScholarSpider(scrapy.Spider):
 	
 	# name spider
-	name = "GoogleScholar_spider"
+	name = "gscholar"
 
 	# define start url
-	start_urls = ["https://scholar.google.nl/citations?hl=nl&view_op=search_authors&mauthors=label%3Aphysics&btnG="]
+	start_urls = ["https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label%3Aphysics&btnG="]
 
 	def __init__(self):
 		"""
@@ -117,7 +117,7 @@ class GoogleScholarSpider(scrapy.Spider):
 
 		# if there is a next page, and the max of professors searched has not been reached, go to next page
 		if next_page and self.curr_N_prof < self.max_prof:
-
+			print('NEXT PAGE IS GEVONDEN!')
 			# count in the added professors
 			self.curr_N_prof = self.curr_N_prof + 10
 
