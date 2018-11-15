@@ -1,6 +1,5 @@
 """
-spider class that extract information of N professors for the subject physics
-usage: cd the root folder, and then run scrapy runspider scraper.py
+spider class that extracts links of google scholar profiles
 """
 
 
@@ -27,7 +26,7 @@ class GoogleScholarSpider(scrapy.Spider):
 		"""
 
 		# define label sought after, and base link for searched
-		self.curr_subj = "label:physics"
+		self.curr_subj = "physics"
 		self.link_base = "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors="
 		
 		# number of current professors, and maximum number of professors
@@ -59,12 +58,8 @@ class GoogleScholarSpider(scrapy.Spider):
 		    link_profile = "https://scholar.google.com/" + prof_profile_id
 
 		    # entry to dataset with links
-		    link_entry = {
-		    	"link": link_profile, 
-		    	"subject": self.curr_subj
-		    }
 
-		    self.link_entries.append(link_entry)
+		    self.link_entries.append(link_profile)
 
 		    print("LINK FOUND: ", link_profile)
 
@@ -89,7 +84,7 @@ class GoogleScholarSpider(scrapy.Spider):
 			nextpage_code = match_link.group(1)[4:-1]
 
 			# combine base link with current subject, the code, and current N of professors
-			nextpage_link = self.link_base + self.curr_subj +"&after_author="+ nextpage_code + "&astart=" + str(self.curr_N_prof)
+			nextpage_link = self.link_base + "label:"+self.curr_subj +"&after_author="+ nextpage_code + "&astart=" + str(self.curr_N_prof)
 
 	    	# send scrapy to next link, with callback to parse method 
 			yield scrapy.Request(nextpage_link, callback=self.parse, dont_filter=True)
