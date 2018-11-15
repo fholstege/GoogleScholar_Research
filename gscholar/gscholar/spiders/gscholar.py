@@ -32,64 +32,14 @@ class GoogleScholarSpider(scrapy.Spider):
 		
 		# number of current professors, and maximum number of professors
 		self.curr_N_prof = 10
-		self.max_prof = 10000
+		self.max_prof = 100000
 
 		# placeholder for dataframe with professor data
-		self.prof_entries = []
+		self.link_entries = []
 
 		# acquire signal when spider is closed
 		dispatcher.connect(self.spider_closed, signals.spider_closed)
 
-	# function to extract relevant data from a professor profile
-	def parse_profile(self, response):
-
-		# select name of professor
-		name_select = 'div[id="gsc_prf_in"]::text'
-
-		# retrieve name of professor
-		prof_name = response.css(name_select).extract_first()
-
-		# acquire all-time indexes for professor
-		select_profstats = 'td.gsc_rsb_std::text'
-
-		# extract stats out of table in professor's page
-		profstats = response.css(select_profstats).extract()
-
-		# define property of each professor stat
-		# _5 means the same statistic, but only for the last five years
-		tot_citations = profstats[0]
-		tot_citations_5 = profstats[1]
-		H_index = profstats[2]
-		H_index_5 = profstats[3]
-		I_index = profstats[4]
-		I_index_5 = profstats[5]
-
-		# select name of institution 
-		select_institution = "a.gsc_prf_ila::text"
-
-		# acquire institution of professor
-		prof_institution = response.css(select_institution).extract_first()
-
-		# check: if no institution, or "Homepage", enter "NA"
-		if prof_institution is None or prof_institution is "Homepage": 
-			prof_institution = "NA"
-
-		# entry: a dict of professor features 
-		entry = {
-
-		"prof_name": prof_name,
-		"prof_insti": prof_institution,
-		"tot_citations": tot_citations,
-		"tot_citations_5": tot_citations_5,
-		"H_index": H_index,
-		"H_index_5": H_index_5,
-		"I_index": I_index,
-		"I_index_5": I_index_5
-
-		}
-
-		# add entry to list of dicts with all entries 
-		self.prof_entries.append(entry)
 
 	def parse(self, response):
 
@@ -108,16 +58,24 @@ class GoogleScholarSpider(scrapy.Spider):
 		    # create link to profile using id
 		    link_profile = "https://scholar.google.com/" + prof_profile_id
 
-		    yield scrapy.Request(link_profile, callback = self.parse_profile, dont_filter=True)
+		    # entry to dataset with links
+		    link_entry = {
+		    	"link": link_profile, 
+		    	"subject": self.curr_subj
+		    }
 
-			# select the next page
-		    next_page_select = 'button[aria-label="Next"]::attr(onclick)'
-		    next_page = response.css(next_page_select).extract_first()
+		    self.link_entries.append(link_entry)
+
+		    print("LINK FOUND: ", link_profile)
+
+		# select the next page
+		next_page_select = 'button[aria-label="Next"]::attr(onclick)'
+		next_page = response.css(next_page_select).extract_first()
 
 
 		# if there is a next page, and the max of professors searched has not been reached, go to next page
 		if next_page and self.curr_N_prof < self.max_prof:
-			print('NEXT PAGE IS GEVONDEN!')
+
 			# count in the added professors
 			self.curr_N_prof = self.curr_N_prof + 10
 
@@ -140,7 +98,7 @@ class GoogleScholarSpider(scrapy.Spider):
 	def profdata_to_csv(self, name_csv):
 
 		# create dataframe from list of dicts
-		df_profs = pd.DataFrame.from_records(self.prof_entries)
+		df_profs = pd.DataFrame.from_records(self.link_entries)
 
 		# write out dataframe to csv with filename = name_csv 
 		df_profs.to_csv(name_csv)
@@ -148,7 +106,7 @@ class GoogleScholarSpider(scrapy.Spider):
 	# when spider closed, activate function profdata_to_csv
 	def spider_closed(self, spider):
 
-		self.profdata_to_csv(self.curr_subj + "_GoogleScholarData.csv")
+		self.profdata_to_csv(self.curr_subj + "_linkData.csv")
 
 
 
