@@ -42,6 +42,15 @@ class GoogleScholarSpider(scrapy.Spider):
 
 	def parse(self, response):
 
+		# if redirected
+		if response.status == 302:
+
+			print("Current URL: ", response.request.url)
+
+			# callback to the url requested
+			yield scrapy.Request(response.request.url, callback=self.parse, dont_filter=True)
+
+
 		# object with professor profile 
 		profiles = 'div.gsc_1usr.gs_scl'
 
@@ -60,8 +69,6 @@ class GoogleScholarSpider(scrapy.Spider):
 		    # entry to dataset with links
 
 		    self.link_entries.append(link_profile)
-
-		    print("LINK FOUND: ", link_profile)
 
 		# select the next page
 		next_page_select = 'button[aria-label="Next"]::attr(onclick)'
