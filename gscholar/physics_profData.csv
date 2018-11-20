@@ -1,1 +1,387 @@
-""
+,H_index,H_index_5,I_index,I_index_5,prof_insti,prof_name,tot_citations,tot_citations_5
+0,213,137,1674,1109,Seoul National University,s. b. kim,234559,105153
+1,186,140,1615,1141,University of Edinburgh,Thomas Doherty,220740,132451
+2,203,152,1840,1451,Cinvestav,Heriberto Castilla,203847,123844
+3,192,102,323,276,NA,Edward Witten,193280,41785
+4,134,104,301,250,Northeastern University,Albert-László Barabási,192157,91173
+5,181,141,1454,1060,NA,francesca pastore,185858,108128
+6,183,134,417,370,stanford university,"Hongjie Dai, NR",180817,85141
+7,187,155,1240,974,Karlsruhe Institute of Technology,Joerg Meyer,161861,114105
+8,118,94,460,390,University of British Columbia,Douglas Scott,156483,83199
+9,171,141,1089,827,University of Oregon,Eric Torrence,156414,107028
+10,172,128,954,728,McGill University,Andreas Warburton,153896,93737
+11,164,98,1164,647,University of Minnesota,Donald Truhlar,146876,65531
+12,164,112,840,580,Michigan State University,Carl Bromberg,141584,79260
+13,145,124,1160,897,NA,S. L. Zang,141517,109635
+14,131,102,511,394,Boston University,Saul Youssef,138938,87894
+15,157,127,886,720,Fermilab,Ronald Lipton,136283,91880
+16,156,127,839,690,NA,J Ellison,135425,89779
+17,153,122,782,626,Centro Brasileiro de Pesquisas Fisicas,Gilvan Augusto Alves,134132,89527
+18,48,23,85,40,NA,William T. Vetterling,133439,23707
+19,159,127,670,609,Korea University,Byungsik Hong,130451,92447
+20,153,130,834,759,NA,Francesco Crescioli,126237,100278
+21,144,88,490,357,University of California at Berkeley,Steven G. Louie,125316,60496
+22,143,122,642,465,NA,Lucia Silvestris,124818,82129
+23,161,134,1045,730,Cornell University,Jim Alexander,123711,81175
+24,138,107,630,422,INFN,Paolo Laurelli,123307,74305
+25,113,68,370,224,NA,Albert Einstein,122385,38734
+26,143,122,682,461,University of Bologna,francesco navarria,121502,81947
+27,145,119,638,562,NA,Sergey Kuleshov,121183,87601
+28,160,137,701,622,NA,John L Wood,119678,88264
+29,140,122,694,474,CERN,Tiziano Camporesi,119280,82353
+30,144,112,660,542,NA,Sandro De Cecco,118934,81098
+31,162,129,716,627,Rice University,Ajayan PM,118470,68225
+32,92,50,465,195,NA,John S. Bell,115672,33961
+33,152,120,790,677,University of Zurich,Florencia Canelli,113764,79429
+34,149,123,589,519,Universita' della Calabria,Enrico Tassi,113763,82367
+35,138,119,689,488,Homepage,Dezso Horvath,112610,83253
+36,135,125,508,459,Homepage,Benjamin Hooberman,110729,93536
+37,154,101,848,614,NA,Sandra Leone,109947,56214
+38,145,123,696,612,Boston University,Tulika Bose,111315,84007
+39,148,134,612,552,CERN,Xavier Espinal Curull,108825,87272
+40,122,111,380,379,CERN,Roberto Di Nardo,108486,90404
+41,137,114,604,517,Simon Fraser University,Dugan O'Neil,107870,76213
+42,137,118,582,508,Vrije Universiteit Brussel,Freya Blekman,107593,81785
+43,126,115,593,457,CERN,H.H.J. ten Kate,105340,81814
+44,137,123,534,490,NA,Martti Raidal,104697,84643
+45,127,112,496,422,Université de Genève,Domenico della Volpe,103088,76151
+46,123,111,419,411,NA,Thomas Koffas,102686,83996
+47,133,121,538,487,INFN,gabriella pugliese,101711,84352
+48,131,117,519,416,Lappeenranta University of Technology,Tuure Tuuva,101590,78113
+49,139,117,550,463,CERN,Nuno Leonardo,101310,76977
+50,153,137,677,616,Brookhaven National Laboratory,Chamizo Llatas Maria,101123,82322
+51,140,127,514,488,NA,Mia Tosi,100291,85073
+52,113,68,370,224,NA,Albert Einstein,122385,38734
+53,124,113,408,391,NA,Miguel Villaplana,98980,81999
+54,146,110,609,431,Yale University,John W. Harris,98722,48272
+55,129,116,587,427,National Centre for Physics,Hafeez R. Hoorani,97397,74186
+56,149,135,552,517,University of Bari,Marcello Abbrescia,96614,81348
+57,124,112,420,400,FHNW,Diego Casadei,92845,75312
+58,129,118,435,405,Homepage,Stefano Lacaprara,92558,77369
+59,129,117,416,404,CERN,Gianluca Cerminara,92412,77884
+60,53,47,97,91,Penn State,Reka Albert,92390,39744
+61,127,117,407,403,NA,Ozlem Kaya,91372,78028
+62,139,81,621,378,"University of Colorado ,Boulder",Alex Zunger,90216,29808
+63,142,101,736,436,Homepage,alessandro de angelis,90139,41282
+64,125,97,650,539,Homepage,giulia manca,88727,60970
+65,103,84,434,328,Radboud University Nijmegen,Mikhail Katsnelson,87834,54352
+66,120,109,291,287,LIP,Pina J.,87567,70492
+67,129,118,414,399,NA,Simone Gennai,86883,73602
+68,126,51,918,286,NA,Manuel Cardona,86407,16354
+69,132,79,781,471,Scuola Normale Superiore of Pisa,Alberto Lusiani,84918,35375
+70,122,115,377,376,Northeastern University,Andrea Massironi,83850,74388
+71,53,26,87,44,New York University,Pierre Hohenberg,82113,24160
+72,136,130,490,489,NA,César A. Bernardes,82031,75009
+73,139,90,427,313,University of Innsbruck,Peter Zoller,80979,33341
+74,109,67,549,291,NA,"Rashid Sunyaev, R.A. Sunyaev, R. Syunyaev, Р. Сюняев",80413,42285
+75,132,68,567,339,INFN,stefano lami,76889,24594
+76,135,121,414,360,NA,G Merino,75988,59299
+77,117,108,297,296,University of Texas at El Paso,Roy Montalvo,75616,66359
+78,142,66,583,332,NA,Nicola Turini,74870,19971
+79,135,117,377,356,NA,Luis M. Villasenor Cendejas,74490,57641
+80,109,80,1451,949,Kent State University,Young-Ki Kim,74389,43967
+81,100,89,209,198,Homepage,Gennady Pospelov,73770,56935
+82,135,97,681,438,NA,mazzoni maria alessandra,73168,37268
+83,103,74,242,158,University of California Los Angeles,Katsushi Arisaka,72621,44663
+84,108,105,242,232,NA,Amr Radi,69141,62687
+85,109,58,268,212,California Institute of Technology,James R. Heath,69031,20661
+86,98,91,195,190,Homepage,Babak ABI,67951,54150
+87,121,95,317,270,Stanford University,Per Hansson Adrian,67886,49154
+88,110,98,257,228,INFN,Roberto Perrino,67615,50807
+89,126,80,617,358,Harvard University,Federico Capasso,67605,30934
+90,125,72,573,355,Korea University,Eunil Won,66094,23782
+91,48,39,88,80,Homepage,michele lazzeri,64920,46043
+92,94,62,248,175,Harvard University,Christopher Stubbs,64159,25490
+93,100,74,185,119,University of Roma Sapienza,Luciano M. Barone,64100,45398
+94,101,88,187,180,Middle East Technical University,Bilge Demirkoz,63550,48080
+95,108,79,745,543,Homepage,Young Hee Lee,63138,33961
+96,87,73,168,151,CERN,Hans Danielsson,62502,44180
+97,121,62,901,674,NA,STUDY TO SHINE,61764,23695
+98,94,63,307,201,NA,Apple Owner,61413,22108
+99,109,94,360,287,Nikhef,Jo van den Brand,60952,45505
+100,125,64,214,156,NA,Nathan Seiberg,60916,13950
+101,72,53,172,142,University of Barcelona,Licia Verde,60531,24221
+102,130,118,403,398,Fermi National Accelerator Laboratory,Gianluca Petrillo,60330,48019
+103,89,49,294,172,NA,CN Yang,60077,14211
+104,93,48,252,158,Princeton University,Roberto Car,59959,26376
+105,111,67,242,180,MIT,Max Tegmark,59804,21415
+106,119,61,666,304,University of Cincinnati,Kay Kinoshita,59456,17677
+107,93,74,303,206,NA,Francisco Guinea,59341,36673
+108,126,89,319,238,Stanford University,Peter F. Michelson,58016,30743
+109,100,87,198,197,CERN,Stefania Bordoni,58015,46898
+110,105,88,481,330,INFN,Alessandro Petrolini,57989,35924
+111,84,69,163,141,INFN,Francesco Broggi,57029,41804
+112,110,79,271,216,NA,Andriy Zatserklyaniy,56695,37386
+113,104,68,303,210,Michigan State University,Gary D. Westfall,56689,19204
+114,127,74,468,322,Fritz-Haber-Institut der Max-Planck,Matthias Scheffler,56189,23283
+115,89,78,140,138,Universidad Industrial de Santander,Fernando Andres Quiñonez Granados,55983,41157
+116,96,64,349,266,NA,Sabino Matarrese,55961,38137
+117,90,79,145,140,Homepage,Samir Guragain,55691,43334
+118,106,84,428,212,CERN,Fons Rademakers,55272,28243
+119,101,60,537,333,UNIV Augsburg,Hänggi P,55181,19373
+120,116,64,392,293,University of Minnesota,Frank S Bates,54366,18981
+121,81,31,258,76,Università dell'Insubria,Massimo Caccia,53531,25783
+122,101,94,249,235,Homepage,Raffaele Giordano,53489,43912
+123,116,99,275,262,NA,Susanta Pal,53447,33728
+124,108,95,256,249,Homepage,Massimiliano Razzano,52615,40220
+125,115,107,304,268,INFN,Giuseppe Eugenio  Bruno,52611,42540
+126,114,83,363,270,NA,S De Pasquale,52566,28432
+127,111,66,436,292,Homepage,Alfio Lazzaro,52383,23647
+128,119,76,374,282,Pennsylvania State University,Thomas E. Mallouk,51952,23153
+129,112,56,507,247,Seoul National University,Sun Kee Kim,51213,14866
+130,99,84,435,304,Universidade Federal do Rio de Janeiro,Leandro S de Paula,51147,32822
+131,90,82,340,285,Homepage,Alessandro Cardini,50959,38927
+132,108,69,395,277,Stanford University,Zhi-xun Shen,50759,22819
+133,88,63,182,159,Cardiff University,Patrick Sutton,50633,29566
+134,110,77,304,257,Purdue University,Fuqiang Wang,50359,25093
+135,111,77,486,359,Homepage,Angel Rubio,50048,23957
+136,92,75,266,230,Lawrence Berkeley National Laboratory,Peter Nugent,49768,25509
+137,103,53,300,203,University of Bristol,Michael Berry,49317,14121
+138,101,60,295,216,University of Ottawa,Paul Corkum,49150,19436
+139,88,70,186,158,University of California Davis,Lloyd Knox,48550,37879
+140,84,53,129,99,NA,Nima Arkani-Hamed,48412,14781
+141,103,58,347,179,università di Pisa,Isidoro Ferrante,48009,24181
+142,91,69,281,214,University of Cambridge,Henning Sirringhaus,47804,23355
+143,64,48,563,399,Universidade Nova Lisboa,Jose Paulo Santos,47766,33659
+144,81,56,128,107,Cornell University,Paul McEuen,47684,18840
+145,75,36,165,83,Homepage,"Chen Ning Yang, 杨振宁",47434,8746
+146,102,56,389,212,Sungkyunkwan University,Il H. Park,46609,18780
+147,77,52,280,183,Hokkaido University,Hiromichi Ohta,46479,30416
+148,105,71,343,220,Nikhef,Leo Wiggers,46347,22016
+149,82,52,202,168,Australian National University,Brian Schmidt,46044,17856
+150,92,62,211,161,Delft University of Technology,L.p. Kouwenhoven,45468,17123
+151,100,49,267,153,Harvard University,David R. Nelson,45256,10412
+152,101,71,250,209,Brookhaven National Laboratory,Jerome Lauret,45235,18197
+153,86,63,234,204,Homepage,Yoshitaka Itow,45124,14978
+154,96,71,446,269,Homepage,Sergei D. Odintsov,44812,21724
+155,55,35,123,59,NA,Maurice Anthony Biot (1905-1985),43684,13391
+156,82,48,269,189,"University of California, Santa Barbara",Glenn H. Fredrickson,43586,15520
+157,103,48,657,308,NA,C. Richard A. Catlow,43468,12836
+158,83,59,284,187,Soochow University,ji-huan he,43444,18656
+159,107,86,211,201,NA,Silvia Rainò,43423,29375
+160,77,63,326,266,University of Geneva,Martin Kunz,43200,35005
+161,86,56,526,333,University of Missouri,David J. Singh,43077,19124
+162,83,66,135,127,Max-Planck Institute of Quantum Optics,Immanuel Bloch,42700,25078
+163,99,46,348,150,Stanford University,David A B Miller,42640,9469
+164,47,40,52,47,Homepage,Yuriy Pakhotin,42269,31011
+165,82,55,185,153,Universidade Federal de Minas Gerais,Ado Jorio,42117,21374
+166,84,45,248,140,NA,Vladimir Zakharov,42010,10482
+167,59,49,123,102,Universidade do Minho,Nuno Peres,41789,28443
+168,98,90,396,333,CERN,Niko Neufeld,40805,32849
+169,55,40,145,119,University of Delaware,Jamie Holder,40495,18157
+170,105,105,314,314,Michigan State University,Andrew Chegwidden,40305,39689
+171,75,55,155,118,University of Munich,Harald Weinfurter,40297,14561
+172,66,53,171,143,University of Ferrara,Paolo Natoli,40214,33849
+173,99,75,271,236,Northwestern University,Vassiliki Kalogera,39850,28987
+174,96,70,252,228,California Institute of Technology,Yanbei Chen,39716,31086
+175,84,51,245,153,University of Geneva,Markus Buttiker,39131,11086
+176,76,61,138,121,Homepage,Fabio Maltoni,39038,28381
+177,81,66,216,186,University of California - Riverside,Alexander A. Balandin,38858,26485
+178,96,85,190,189,NA,Elena Orlando,38853,27148
+179,79,62,845,637,NA,Swapna Roy,38798,25651
+180,100,51,488,289,VU University Amsterdam,Rienk van Grondelle,38702,13827
+181,99,58,456,290,ETH Zurich,Ursula Keller,38573,15175
+182,9,5,8,3,NA,James D Pack,38562,21052
+183,79,51,155,112,University of Minnesota Duluth,Alec Habig,38468,11126
+184,100,44,309,149,Imperial College,Peter Knight,38341,9078
+185,104,73,286,238,University of Colorado,Jun Ye,38212,20658
+186,92,60,319,191,Nagoya University,Shin'ichi NOJIRI,38190,17978
+187,94,81,201,182,NA,Riccardo Rando,38168,25726
+188,89,60,372,244,Cambridge University,N.Wyn Evans,38163,18229
+189,96,60,320,215,Hebrew University,Tsvi Piran,38107,13239
+190,95,82,185,184,NA,Luigi Tibaldo,38058,26198
+191,97,85,287,197,University of Cape Town,Jean Cleymans,37906,26629
+192,83,50,769,407,Tel Aviv University,Boris Malomed,37823,15501
+193,77,58,229,166,Homepage,Luca Gammaitoni,37218,25693
+194,68,36,181,105,NA,Niels Bohr,37177,8649
+195,95,87,322,307,Horia Hulubei National Institute of Physics and Nuclear Engineering,Sabin Stoica,36730,32290
+196,83,55,236,173,Clemson University,Apparao M Rao,36645,11337
+197,95,39,286,114,Stony Brook University,Sacha Kopp,36512,7859
+198,89,45,176,123,ENS,Serge Haroche,36331,10196
+199,85,33,197,96,MIT,Robert Jaffe,35904,5789
+200,76,56,140,122,University of Maryland,Christopher Monroe,35742,15463
+201,85,65,299,228,NA,Fulvio Ricci,35675,26834
+202,48,39,61,57,National Research Council Canada,Claudiu Cojocaru,35264,24764
+203,98,65,429,317,Harvard University,Abraham Loeb,35046,16111
+204,66,55,227,148,INFN,Eugenio Coccia,34975,28084
+205,80,49,227,164,NA,Dong Myung Shin,34910,16188
+206,78,51,176,150,Aarhus,Bjørk Hammer,34879,16036
+207,94,62,215,176,Caltech,David Reitze,34121,25268
+208,67,29,217,70,Homepage,Боголюбов Николай Николаевич,34042,5707
+209,85,46,369,206,MIT,E A Fitzgerald,27771,8484
+210,65,63,259,248,Scuola Normale Superiore,Pietro Marino,27561,25234
+211,69,41,168,91,CRG,Marco Musy,27209,11563
+212,82,44,335,167,Chalmers,Bengt Nordén,27039,6967
+213,70,53,184,130,NA,Antoine Georges,25765,11182
+214,77,42,267,142,Arizona State University,Stuart Lindsay,25575,8432
+215,78,54,306,162,University of Jyvaskyla,Juha Äystö,25282,15239
+216,86,51,414,236,Friedrich Schiller Universität Jena,Friedhelm Bechstedt,28218,11261
+217,17,16,26,24,NA,yunye liang,27383,7481
+218,75,40,279,168,University of Basel,Meyer Ernst,25226,7616
+219,78,29,202,85,NA,Rudolf Tromp,25186,4850
+220,81,43,298,154,University of California Davis,Warren E. Pickett,25117,6534
+221,63,46,635,422,Homepage,Teon Mc Lu Chang Tsai,24963,14837
+222,81,49,444,259,NA,Alois Loidl,26757,10318
+223,89,59,278,232,NA,David Jaffray,26617,12934
+224,77,61,111,110,"California State University, Los Angeles",Bijan Berenji,26600,15689
+225,67,42,156,99,University of Exeter,William L Barnes,27011,12101
+226,57,32,186,81,NA,H. Helmholtz,26554,6967
+227,65,52,505,335,NA,Zhenxiong Wu,26524,16582
+228,82,34,240,106,Google,Chris Roat,26381,6125
+229,69,37,116,74,NA,David Hardtke,26252,6793
+230,88,86,286,282,NA,Bogdan Popovici,26261,24149
+231,52,31,119,61,Universidad Autonoma de Madrid,Jose M. Soler,26133,10283
+232,66,60,125,123,NA,Katherine Dooley,25748,22872
+233,85,34,202,88,NA,Adel Trabelsi,24958,4971
+234,24,16,29,17,NA,Andrea Di Simone,25703,17573
+235,71,49,308,179,"Indian Institute of Science Education and Research, Pune",Satishchandra B. Ogale,25653,11856
+236,73,36,288,114,Duke University,Berndt Mueller,25635,6920
+237,76,27,153,70,NA,Dejan Vučinić,24853,4529
+238,74,41,184,120,University of Twente,Palstra Thomas,24683,6226
+239,58,54,153,124,NA,Flavio Travasso,24441,21569
+240,63,58,218,189,University of Groningen,Gerco Onderwater,24384,19151
+241,84,82,231,231,NA,Dr. Zhou Xing,24380,22634
+242,60,56,111,111,Eötvös Loránd University,Peter Raffai,24164,21840
+243,66,39,173,103,Perimeter Institute,Lee Smolin,24145,8155
+244,71,48,287,151,Homepage,John Spence  FRS,23844,11643
+245,68,44,270,162,NA,Sergei V. Bulanov,23825,8848
+246,71,46,144,95,Federal University of Rio de Janeiro,João R T  de Mello Neto,23820,8988
+247,69,30,188,78,Cornell University,Bruce van Dover,23624,2986
+248,7,4,7,2,Homepage,Stefan Scherer,23464,14208
+249,48,35,118,79,University of North Carolina,John Wilkerson,23399,7422
+250,45,34,83,54,University of Michigan,Shawn McKee,23353,15088
+251,7,5,7,4,NA,Vacslav Glukhov,23337,6873
+252,78,48,401,241,University of Akron,Stephen Z. D. Cheng,23300,9389
+253,61,41,137,100,University of California at Berkeley,John Harte,23249,11112
+254,74,65,184,161,Stuttgart University,Jörg Wrachtrup,23204,17099
+255,50,23,103,51,Carnegie Mellon University,Robert H. Swendsen,23185,6817
+256,61,55,154,132,INFN,Cristiano Palomba,23166,20060
+257,67,40,136,94,Homepage,Haim Sompolinsky,23150,6812
+258,75,51,156,127,Northeastern University,Alain Karma,23144,10198
+259,54,38,141,106,University of Chicago,Matthew Newville,23136,12340
+260,37,29,57,39,Fermilab,Donald Holmgren,23128,9331
+261,60,46,115,90,NA,Gennady Gavrilov,23072,10716
+262,80,42,264,139,UC Berkeley,Hugh Hudson,23036,6764
+263,74,64,231,201,ESPCI Paris,Mickael Tanter,22981,15288
+264,56,30,151,79,NA,isaac newton,22961,7950
+265,60,38,170,99,Lawrence Livermore National Laboratory,Michael D. Feit,22880,6860
+266,34,32,42,42,NA,Benjamin Rouillé d'Orfeuil,22670,19643
+267,55,44,158,117,Northwestern University,M.S. Shahriar,22651,18641
+268,55,40,142,87,Fribourg University,Yi-Cheng Zhang,22539,9361
+269,63,63,102,99,Lawrence Berkeley National Laboratory,G Contin,22535,18294
+270,69,43,159,128,Homepage,Pierluigi Belli,22524,7626
+271,54,34,105,75,University of Delaware,John Gizis,22508,9379
+272,75,59,211,156,"University of California, Berkeley",Adrian T LEE,22442,12029
+273,65,44,162,121,University of Oxford,Pedro Ferreira,22394,8893
+274,71,36,203,119,NA,Peter B Littlewood,22393,6877
+275,59,28,127,60,Budker Institute of Nuclear Physics,Valery Telnov,22352,4933
+276,64,31,129,69,NA,Daniel Rugar,22307,5659
+277,71,39,216,115,Santa Fe Institute,Sidney Redner,22152,8001
+278,70,54,131,112,brookhaven national lab,Raju Venugopalan,22028,11092
+279,74,40,205,109,Homepage,Ad Lagendijk,21787,7430
+280,34,20,100,44,NA,Maciej A. Nowak,21633,15310
+281,58,46,543,366,Homepage,Avinash Singh,21612,14150
+282,61,39,142,101,NA,David Hagan,21598,7063
+283,80,52,173,127,University of Zurich,Gino Isidori,21557,10237
+284,66,50,193,164,UNIST,Bartosz Grzybowski,21502,12380
+285,74,66,287,261,Shandong University,Huang Baibiao   黄柏标,21451,17587
+286,72,53,147,137,University of Namibia,Riaan Steenkamp,21339,9855
+287,41,25,80,41,Michigan State University,J Pumplin,21291,10261
+288,56,53,117,103,Max Planck Institute for Gravitational Physics,Thomas Dent,21228,20190
+289,53,53,100,99,NA,Grant David Meadors,21219,20444
+290,71,71,117,99,Bogolyubov Institute for Theoretical Physics,Evgenij Martynov,21151,18083
+291,57,25,90,44,NA,N D Lang,21146,2618
+292,70,45,246,158,UCLA,Paul S. Weiss,21115,9112
+293,70,50,212,163,Utrecht University,Frank de Groot,21038,9727
+294,47,21,53,35,NA,Steven Hawking,20976,4795
+295,60,32,139,87,NA,Roberto Benzi,20922,6008
+296,65,35,194,94,NA,Jeppe Olsen,20906,6840
+297,72,42,261,173,Karlsruhe Institute of Technology,Manfred M. Kappes,20838,7066
+298,55,53,115,103,NA,Angus S Bell,20821,19994
+299,70,47,410,287,"University of Puerto Rico, Rio Piedras",Ram S. Katiyar,20789,11310
+300,68,46,378,230,University at Buffalo,Quanxi Jia,20782,9602
+301,70,59,233,184,Leibniz Universität Hannover,Boris Chichkov,20735,12353
+302,76,49,323,249,University of Toronto,Bryan Gaensler,20596,10419
+303,55,54,102,102,NA,Sebastian Steinlechner,20582,19734
+304,62,46,226,166,Polytechnique Montréal,Christophe Caloz,20574,10032
+305,43,19,76,28,Clemson University,Murray S. Daw,20564,5217
+306,74,61,293,237,University of Toledo,Yanfa Yan,20553,14684
+307,66,36,193,105,Karlsruhe Institute of Technology,Gerd Schön,20493,5071
+308,65,46,212,154,"University of California, San Diego",M. Di Ventra,20450,11349
+309,48,48,77,77,Massachusetts Institute of Technology,Liang Fu,20379,16647
+310,65,41,240,105,NA,fernando ferroni,20303,6972
+311,63,36,225,102,NA,Kazuo Kadowaki,20217,4629
+312,69,42,197,118,Homepage,Niek F van Hulst,20164,8764
+313,69,42,170,114,University of Illinois at Urbana-Champaign,Eduardo Fradkin,19890,7192
+314,60,38,356,164,Purdue University,Sergio Rodriguez,19831,8398
+315,52,26,185,54,NA,agranovich vladimir m,19763,5447
+316,77,28,203,75,"University of Massachusetts, Amherst",John Donoghue,19698,3464
+317,70,43,366,172,KULeuven,Gustaaf Borghs,19691,7033
+318,48,21,101,46,University of Utah,A. L. Efros,19532,4302
+319,66,39,204,113,NA,roberto bellotti,19438,7731
+320,61,36,128,83,University of Florida,Clifford Will,19433,7148
+321,77,52,152,141,Yale University,Frank van den Bosch,19358,10195
+322,46,46,95,91,NA,Antonino Chiummo,19283,18912
+323,61,32,228,100,Ecole polytechnique,Michel FLIESS,19151,5676
+324,17,8,23,7,NA,Ramaz Kvatadze,19098,14930
+325,72,51,262,188,University of Sydney,Geraint F. Lewis,19096,9732
+326,55,48,553,448,UCLA,You Ming Yang,19036,14848
+327,44,38,61,52,NA,Chip Stewart,19018,12477
+328,65,39,469,274,Institute of Physics,Martin Nikl,18913,9597
+329,67,42,269,155,ETH Zurich,Klaus Ensslin,18895,8025
+330,66,45,319,220,University of Helsinki,Kai Nordlund,18727,9876
+331,43,28,96,65,ICTP,Sandro Scandolo,18424,11961
+332,66,39,153,96,Cornell university,James Sethna,18396,7110
+333,76,59,177,152,"University of Wisconsin, Madison",Paolo Desiati,18310,12654
+334,48,39,270,202,NA,Ping Li,18307,12088
+335,75,46,201,148,University of Western Cape,Roy Maartens,18260,7170
+336,63,49,175,136,Université de Franche-Comté,John Dudley,18209,10622
+337,51,50,103,99,Homepage,Shirley Ho,18192,16745
+338,65,37,280,140,Homepage,Lluis Torner,18166,6497
+339,77,54,172,154,FHNW,Ernest Weingartner,18021,10013
+340,69,40,283,159,Université de Sherbrooke,Andre D Bandrauk,17880,6114
+341,71,44,161,109,NA,Antonios Papaikonomou,17834,6551
+342,57,39,120,90,Copenhagen University,Eugene Polzik,17746,6810
+343,52,32,95,59,MIT,Krishna Rajagopal,17699,4766
+344,65,25,123,49,NA,Giovanni Piano Mortari,17670,2948
+345,20,19,20,19,CERN,G. Carrillo-Montoya,17661,15614
+346,71,54,356,285,jilin university,q. jiang,17660,11531
+347,69,47,254,166,University of Chieti-Pescara,Gian Luca Romani,17610,9133
+348,47,47,64,64,NA,Miguel Arratia,17566,16784
+349,58,37,191,117,NA,A.Rubenchik,17539,6659
+350,54,51,85,84,Homepage,Alexander Khalaidovski,17523,15221
+351,59,37,152,76,LIP,Patrícia Gonçalves,17458,6735
+352,71,40,196,144,Carnegie Mellon University,Reinhard A. Schumacher,17324,5580
+353,45,33,101,83,University of Regensburg,Jaroslav Fabian,17295,9163
+354,68,39,158,123,University of Turin,Roberto Gallino,17250,6687
+355,9,9,8,8,European Spallation Source,Dorothea Pfeiffer,17095,14898
+356,43,31,88,56,University of California Davis,Sergey Savrasov,17035,9819
+357,33,25,71,51,Reykjavik University,Andrei Manolescu,16996,6103
+358,48,44,72,71,ICFO,Frank Koppens,16969,13911
+359,56,51,88,87,Nagoya University,Akira Okumura,16957,12126
+360,38,38,67,67,"California State University, Fullerton",Fabian Magaña-Sandoval,16940,16786
+361,69,41,227,138,Rice University,Herbert Levine,16937,6196
+362,71,69,168,164,University of Illinois at Urbana-Champaign,Joaquin D. Vieira,16881,13708
+363,55,50,108,104,Lawrence Berkeley National Laboratory,Mateusz Ploskon,16858,12634
+364,72,51,230,159,Utah State University,Alexander I. Boldyrev,16776,8040
+365,45,44,92,85,Massachusetts Institute of  Technology,Eric Oelker,16774,16331
+366,61,38,389,220,USP,Osvaldo N. Oliveira Jr.,16658,7359
+367,38,38,67,67,Max  Planck Institute for Gravitational Physics,Andrea Taracchini,16645,16458
+368,71,35,143,84,NA,Dmitry Ozerov,16613,4667
+369,56,36,123,82,Jefferson Lab,jianwei qiu,16608,6198
+370,50,42,420,273,NA,Ajay Vikram Singh,16531,11470
+371,57,31,115,65,Royal Insitute of Technology,Claes Johnson,16498,3913
+372,52,18,137,27,Rutgers University,Richard E. Howard,16464,5270
+373,55,30,192,81,University of Tokyo,H Katayama-Yoshida,16424,4800
+374,58,39,205,126,Nordita,A Balatsky,16258,7151
+375,64,46,142,91,Universität Stuttgart,Tilman Pfau,16173,8109
+376,65,31,237,121,University of Delaware,Qaisar Shafi,16113,4735
+377,58,35,219,127,University of South Carolina,Thomas Vogt,16064,5943
+378,56,34,118,76,University of Notre Dame,Craig Lent,15980,5630
+379,44,24,105,45,Los Alamos National Laboratory,R. C. Albers,15961,3815
+380,30,15,42,20,Homepage,John F. Clauser,15890,5161
+381,53,19,219,50,University of Houston,Wei-Kan Chu,15887,2050
+382,68,35,212,105,Homepage,Timothy J. Lee,15722,4515
+383,55,40,128,95,UCSB,Chetan Nayak,15697,8407
+384,53,45,196,154,National Institute of Advanced Industrial Science and Technology,Shinji Yuasa,15653,8968
+385,33,33,60,60,University of Maryland,Robinjeet Singh,15573,15416

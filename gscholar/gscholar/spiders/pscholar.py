@@ -20,7 +20,7 @@ class ProfileScholarSpider(scrapy.Spider):
     start_urls = []
 
     # open csv, and add each line as a start url 
-    file = open('/Users/FlorisHolstege/Documents/Freelance/GoogleScholar_Research/gscholar/physics_formatted_linkData.csv', 'r')
+    file = open('physics_formatted_linkData.csv', 'r')
     for row in file:
     	formatted = row.split('\n')
     	start_urls.append(formatted[0].strip())
@@ -36,7 +36,7 @@ class ProfileScholarSpider(scrapy.Spider):
 
     def parse(self, response):
 
-	    name_select = 'div[id="gsc_prf_in"::text'
+	    name_select = 'div[id="gsc_prf_in"]::text'
 
 	    # retrieve name of professor
 	    prof_name = response.css(name_select).extract_first()
@@ -49,7 +49,7 @@ class ProfileScholarSpider(scrapy.Spider):
 
 	    # define property of each professor stat
 	    tot_citations = profstats[0]
-	    tot_citaions_5 = profstats[1]
+	    tot_citations_5 = profstats[1]
 	    H_index = profstats[2]
 	    H_index_5 = profstats[3]
 	    I_index = profstats[4]

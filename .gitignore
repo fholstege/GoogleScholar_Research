@@ -2,3 +2,7 @@
 gscholar/.DS_Store
 gscholar/gscholar/spiders/__pycache__/gscholar.cpython-36.pyc
 gscholar/label:physics_linkData.csv
+*.pyc
+gscholar/physics_profData.csv
+gscholar/physics_linkData.csv
+gscholar/label:physics_GoogleScholarData.csv
