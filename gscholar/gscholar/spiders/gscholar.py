@@ -10,15 +10,23 @@ import html2text
 import pandas as pd
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
+import csv
 
 # create spider class
 class GoogleScholarSpider(scrapy.Spider):
 	
 	# name spider
 	name = "gscholar"
+	continue_url = ""
 
-	# define start url
-	start_urls = ["https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label%3Aphysics&btnG="]
+	# load the csv where the current link is saved
+	with open('files/current_link_GoogleScholar.csv', "r") as f:
+		reader = csv.reader(f)
+
+		for row in reader:
+			continue_url = row
+
+	start_urls = continue_url
 
 	def __init__(self):
 		"""
@@ -31,10 +39,11 @@ class GoogleScholarSpider(scrapy.Spider):
 		
 		# number of current professors, and maximum number of professors
 		self.curr_N_prof = 10
-		self.max_prof = 100000
+		self.max_prof = 100
 
 		# placeholder for dataframe with professor data
 		self.link_entries = []
+		self.current_page = ""
 
 		# acquire signal when spider is closed
 		dispatcher.connect(self.spider_closed, signals.spider_closed)
@@ -44,8 +53,6 @@ class GoogleScholarSpider(scrapy.Spider):
 
 		# if redirected
 		if response.status == 302:
-
-			print("Current URL: ", response.request.url)
 
 			# callback to the url requested
 			yield scrapy.Request(response.request.url, callback=self.parse, dont_filter=True)
@@ -93,22 +100,33 @@ class GoogleScholarSpider(scrapy.Spider):
 			# combine base link with current subject, the code, and current N of professors
 			nextpage_link = self.link_base + "label:"+self.curr_subj +"&after_author="+ nextpage_code + "&astart=" + str(self.curr_N_prof)
 
+			self.current_page = nextpage_link
+
 	    	# send scrapy to next link, with callback to parse method 
 			yield scrapy.Request(nextpage_link, callback=self.parse, dont_filter=True)
-
-	# function to write out the dataframe with professor data to csv
-	def profdata_to_csv(self, name_csv):
-
-		# create dataframe from list of dicts
-		df_profs = pd.DataFrame.from_records(self.link_entries)
-
-		# write out dataframe to csv with filename = name_csv 
-		df_profs.to_csv(name_csv)
 
 	# when spider closed, activate function profdata_to_csv
 	def spider_closed(self, spider):
 
-		self.profdata_to_csv(self.curr_subj + "_linkData.csv")
+		# current df with all the profs gathered this session
+		df_profs = pd.DataFrame({"links": self.link_entries})
+		# write out all the gathered links to the master file 
+		master_link_file = 'files/master_links_GoogleScholar.csv'
+		df_profs.to_csv(master_link_file, header=False, mode = 'a')
+
+		print(df_profs.tail())
+
+		#write out last link to the other file
+		with open('files/current_link_GoogleScholar.csv', 'w') as current_link_file:
+			 writer = csv.writer(current_link_file)
+			 writer.writerow([self.current_page])
+
+
+
+
+
+
+
 
 
 
