@@ -27,11 +27,31 @@ if N_request % 1250 != 0:
 	print("N_request argument always needs to be a multiplicate of 1250")
 	exit()
 
-
+# get N of spider instances that ought to be created
 N_spider_instances = N_request // 1250
 
+# count how many spiders currently created
+count_spider_instance = 0
+first_instance = True
+
+# loop through spider instances
 for instance in range(N_spider_instances):
 
+	# indicate to user how many spider instances used
+	print("Current N of spider instances: ", count_spider_instance)
+	count_spider_instance =+ 1
+
+	# create class of spider instance, start crawl process 
 	spider_instance = gsspider_class("physics", 1250, True)
-	process.crawl(spider_instance, subject='physics', N_request=100, new_instance = True)
-	process.start()
+
+	# pass on same arguments of spider instance
+	process.crawl(spider_instance, subject='physics', N_request=1250, new_instance = first_instance)
+	# don't stop process after crawl
+	process.start( stop_after_crawl=False)
+
+	# after process.start is over, sleep for 5 minutes
+	sleep(300)
+
+	# change: no longer first instance
+	if first_instance:
+		first_instance = False

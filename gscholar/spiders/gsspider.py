@@ -91,7 +91,7 @@ class gsspider_class(scrapy.Spider):
 		if next_page and self.curr_N_prof < self.max_prof:
 
 			# count in the added professors
-			self.curr_N_prof = self.curr_N_prof + 10
+			self.curr_N_prof =+ 10
 
 			# regex pattern to uncover the code for next url
 			pattern = r'.*?after_author(.*)x26astart.*' 
