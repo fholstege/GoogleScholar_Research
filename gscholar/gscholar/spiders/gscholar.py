@@ -39,7 +39,7 @@ class GoogleScholarSpider(scrapy.Spider):
 		
 		# number of current professors, and maximum number of professors
 		self.curr_N_prof = 10
-		self.max_prof = 100
+		self.max_prof = 10000
 
 		# placeholder for dataframe with professor data
 		self.link_entries = []
