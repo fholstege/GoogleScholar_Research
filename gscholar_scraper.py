@@ -1,2 +1,0 @@
-from spiders import GoogleScholarSpider
-
