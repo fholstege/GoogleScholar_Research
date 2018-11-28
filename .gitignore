@@ -6,3 +6,7 @@ gscholar/label:physics_linkData.csv
 gscholar/physics_profData.csv
 gscholar/physics_linkData.csv
 gscholar/label:physics_GoogleScholarData.csv
+gscholar/files/master_links_GoogleScholar.csv
+gscholar/files/current_link_GoogleScholar.csv
+gscholar/files/current_link_GoogleScholar.csv
+*.csv

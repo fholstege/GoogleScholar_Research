@@ -17,7 +17,7 @@ class gsspider_class(scrapy.Spider):
 	# name spider
 	name = "gscholar"
 
-	def __init__(self, subject, N_request, new_instance):
+	def __init__(self, subject='physics', N_request=100, new_instance=True):
 		"""
 		when spider class is initialized, define the paramters
 		"""
@@ -45,7 +45,7 @@ class gsspider_class(scrapy.Spider):
 			base_url = "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label%3A" + self.curr_subj + "&btnG="
 		else:
 			# load the csv where the current link is saved
-			with open('gscholar/files/current_link_GoogleScholar.csv', "r") as f:
+			with open('files/current_link_GoogleScholar.csv', "r") as f:
 				reader = csv.reader(f)
 
 				for row in reader:
@@ -111,11 +111,11 @@ class gsspider_class(scrapy.Spider):
 		# current df with all the profs gathered this session
 		df_profs = pd.DataFrame({"links": self.link_entries})
 		# write out all the gathered links to the master file 
-		master_link_file = 'gscholar/files/master_links_GoogleScholar.csv'
+		master_link_file = 'files/master_links_GoogleScholar.csv'
 		df_profs.to_csv(master_link_file, header=False, mode = 'a')
 
 		#write out last link to the other file
-		with open('gscholar/files/current_link_GoogleScholar.csv', 'w') as current_link_file:
+		with open('files/current_link_GoogleScholar.csv', 'w') as current_link_file:
 			 writer = csv.writer(current_link_file)
 			 writer.writerow([self.current_page])
 

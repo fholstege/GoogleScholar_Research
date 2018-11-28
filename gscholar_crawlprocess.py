@@ -11,7 +11,6 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 import sys
 import time
-from twisted.internet import defer, tasks
 
 profiles_perCrawl = 100
 
@@ -30,13 +29,18 @@ if N_request % profiles_perCrawl != 0:
 	exit()
 
 # get N of spider instances that ought to be created
-N_spider_instances = N_request // profiles_perCrawl
+N_spider_instances = 3
 
 # count how many spiders currently created
 first_instance = True
 
+print('N_spider_instances:')
+print(range(N_spider_instances))
+
 # loop through spider instances
 for instance in range(N_spider_instances):
+
+	print(instance)
 
 	# create class of spider instance, start crawl process 
 	spider_instance = gsspider_class("physics", profiles_perCrawl, True)
@@ -46,7 +50,7 @@ for instance in range(N_spider_instances):
 	process.start()
 
 	# after process.start is over, sleep for 5 minutes
-	time.sleep(300)
+	time.sleep(1)
 
 	# change: no longer first instance
 	if first_instance:
