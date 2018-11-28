@@ -10,7 +10,7 @@ import time
 import os
 import sys
 
-profiles_perCrawl = 1000
+profiles_perCrawl = 20
 
 # first argument passed on: subject to scrape 
 subject = sys.argv[1]
@@ -39,7 +39,7 @@ for instance in range(int(N_spider_instances)):
 	cmd_str = "scrapy crawl gsspider -a subject=" + subject + " -a N_request=" + str(profiles_perCrawl) + " -a new_instance=" + str(first_instance)
 	print(cmd_str)
 	spider_instance = os.system(cmd_str)
-	time.sleep(300)
+	time.sleep(3)
 
 	# change: no longer first instance
 	if first_instance:
