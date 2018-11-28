@@ -32,12 +32,7 @@ first_instance = True
 # loop through spider instances
 for instance in range(int(N_spider_instances)):
 
-	print(N_spider_instances)
-	print(profiles_perCrawl)
-
-	print("Current first instance: ", first_instance)
 	cmd_str = "scrapy crawl gsspider -a subject=" + subject + " -a N_request=" + str(profiles_perCrawl) + " -a new_instance=" + str(first_instance)
-	print(cmd_str)
 	spider_instance = os.system(cmd_str)
 	time.sleep(3)
 

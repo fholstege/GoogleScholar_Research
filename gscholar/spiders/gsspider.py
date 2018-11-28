@@ -29,23 +29,30 @@ class gsspider_class(scrapy.Spider):
 		self.link_base = "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors="
 		
 		# number of current professors, and maximum number of professors
-		self.curr_N_prof = 10
+		self.curr_N_prof = 0
 		self.max_prof = int(N_request)
 
 		# placeholder for dataframe with professor data
 		self.link_entries = []
 		self.current_page = ""
 
+		# remember if in loop or not
+		self.status_instance = new_instance.strip()
+		self.firstpage_check = True
+
 		# acquire signal when spider is closed
 		dispatcher.connect(self.spider_closed, signals.spider_closed)
 
-		# placeholder for start url
+		# placeholder for base url
 		base_url = ""
 
 		# check if new instance (no links in master file)
-		if new_instance == "True":
+		if self.status_instance == "True":
+
 			base_url = "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label%3A" + self.curr_subj + "&btnG="
+
 		else:
+
 			# load the csv where the current link is saved
 			with open('files/current_link_GoogleScholar.csv', "r") as f:
 				reader = csv.reader(f)
@@ -53,59 +60,70 @@ class gsspider_class(scrapy.Spider):
 				for row in reader:
 					base_url = row
 
-		self.start_urls = [base_url]
+		if isinstance(base_url, list):
+			self.start_urls = [base_url[0]]
+		else:
+			self.start_urls = [base_url]
 
+	def acquire_link_nextpage(self, nextpage_response):
+
+		# regex pattern to uncover the code for next url
+		pattern = r'.*?after_author(.*)x26astart.*' 
+
+		# retrieve code for next url from "button@onclick" object
+		match_link = re.search(pattern, nextpage_response)
+
+		# clean the string to form new link 
+		nextpage_code = match_link.group(1)[4:-1]
+
+		# combine base link with current subject, the code, and current N of professors
+		nextpage_link = self.link_base + "label:"+self.curr_subj +"&after_author="+ nextpage_code + "&astart=" + str(self.curr_N_prof)
+
+		return nextpage_link
 
 	def parse(self, response):
-
-		# object with professor profile 
-		profiles = 'div.gsc_1usr.gs_scl'
-
-		# go through each profile 
-		for profile in response.css(profiles):
-
-	    	# the selectors for profile name, text, and link to profile 
-		    name_link = 'h3 a::attr(href)'
-
-		    # get id of professors profile 
-		    prof_profile_id = profile.css(name_link).extract_first()
-
-		    # create link to profile using id
-		    link_profile = "https://scholar.google.com/" + prof_profile_id
-
-		    # entry to dataset with links
-
-		    self.link_entries.append(link_profile)
 
 		# select the next page
 		next_page_select = 'button[aria-label="Next"]::attr(onclick)'
 		next_page = response.css(next_page_select).extract_first()
 
+		# if A) not first instance of crawler in loop and B) the first page, don't acquire profiles
+		if self.firstpage_check and self.status_instance != "True":
+			self.firstpage_check = False
+		else:
+
+			# object with professor profile 
+			profiles = 'div.gsc_1usr.gs_scl'
+
+			# go through each profile 
+			for profile in response.css(profiles):
+
+			    # the selectors for profile name, text, and link to profile 
+			    name_link = 'h3 a::attr(href)'
+
+			    # get id of professors profile 
+			    prof_profile_id = profile.css(name_link).extract_first()
+
+			    # create link to profile using id
+			    link_profile = "https://scholar.google.com/" + prof_profile_id
+
+			    # entry to dataset with links
+			    self.link_entries.append(link_profile)
+
+			    self.curr_N_prof = self.curr_N_prof + 1
 
 		# if there is a next page, and the max of professors searched has not been reached, go to next page
 		if next_page and self.curr_N_prof < self.max_prof:
 
-			print("CURRENT N PROF: ", self.curr_N_prof, "MAX PROF: ", self.max_prof)
+			print("current prof (list): ", len(self.link_entries))
+			print("current prof (counter): ", self.curr_N_prof)
 
-			# count in the added professors
-			self.curr_N_prof = self.curr_N_prof + 10
+			link_next_page = self.acquire_link_nextpage(next_page)
 
-			# regex pattern to uncover the code for next url
-			pattern = r'.*?after_author(.*)x26astart.*' 
-
-			# retrieve code for next url from "button@onclick" object
-			match_link = re.search(pattern, next_page)
-
-			# clean the string to form new link 
-			nextpage_code = match_link.group(1)[4:-1]
-
-			# combine base link with current subject, the code, and current N of professors
-			nextpage_link = self.link_base + "label:"+self.curr_subj +"&after_author="+ nextpage_code + "&astart=" + str(self.curr_N_prof)
-
-			self.current_page = nextpage_link
+			self.current_page = link_next_page
 
 	    	# send scrapy to next link, with callback to parse method 
-			yield scrapy.Request(nextpage_link, callback=self.parse, dont_filter=True)
+			yield scrapy.Request(link_next_page, callback=self.parse, dont_filter=True)
 
 	# when spider closed, activate function profdata_to_csv
 	def spider_closed(self, spider):
