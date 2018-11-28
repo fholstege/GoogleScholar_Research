@@ -10,14 +10,16 @@ import pandas as pd
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
 import csv
+import sys
+
 
 # create spider class
 class gsspider_class(scrapy.Spider):
 	
 	# name spider
-	name = "gscholar"
+	name = "gsspider"
 
-	def __init__(self, subject='physics', N_request=100, new_instance=True):
+	def __init__(self, subject, N_request, new_instance):
 		"""
 		when spider class is initialized, define the paramters
 		"""
@@ -28,7 +30,7 @@ class gsspider_class(scrapy.Spider):
 		
 		# number of current professors, and maximum number of professors
 		self.curr_N_prof = 10
-		self.max_prof = N_request
+		self.max_prof = int(N_request)
 
 		# placeholder for dataframe with professor data
 		self.link_entries = []
@@ -41,7 +43,7 @@ class gsspider_class(scrapy.Spider):
 		base_url = ""
 
 		# check if new instance (no links in master file)
-		if new_instance == True:
+		if new_instance:
 			base_url = "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label%3A" + self.curr_subj + "&btnG="
 		else:
 			# load the csv where the current link is saved
@@ -51,7 +53,9 @@ class gsspider_class(scrapy.Spider):
 				for row in reader:
 					base_url = row
 
-		self.start_urls = base_url
+
+		print("starting point: ", base_url)
+		self.start_urls = [base_url]
 
 
 	def parse(self, response):
