@@ -23,7 +23,7 @@ subject = sys.argv[1]
 # second argument passed on: N of professors to acquire
 N_request = int(sys.argv[2])
 
-# check if N_request is multiplicate of 1250
+# check if N_request is multiplicate of N per profiles 
 if N_request % profiles_perCrawl != 0:
 	print("N_request argument always needs to be a multiplicate of ", str(profiles_perCrawl))
 	exit()
