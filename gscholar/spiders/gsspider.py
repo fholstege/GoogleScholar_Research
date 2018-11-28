@@ -56,13 +56,6 @@ class gsspider_class(scrapy.Spider):
 
 	def parse(self, response):
 
-		# if redirected
-		if response.status == 302:
-
-			# callback to the url requested
-			yield scrapy.Request(response.request.url, callback=self.parse, dont_filter=True)
-
-
 		# object with professor profile 
 		profiles = 'div.gsc_1usr.gs_scl'
 
@@ -90,8 +83,10 @@ class gsspider_class(scrapy.Spider):
 		# if there is a next page, and the max of professors searched has not been reached, go to next page
 		if next_page and self.curr_N_prof < self.max_prof:
 
+			print("CURRENT N PROF: ", self.curr_N_prof, "MAX PROF: ", self.max_prof)
+
 			# count in the added professors
-			self.curr_N_prof =+ 10
+			self.curr_N_prof = self.curr_N_prof + 10
 
 			# regex pattern to uncover the code for next url
 			pattern = r'.*?after_author(.*)x26astart.*' 
