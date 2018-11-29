@@ -3,7 +3,7 @@
  This starts an crawling instance for a gsspider
  usage: python3 gscholar_crawlprocess.py subject N_prof_total N_per_crawl label
  N_per_crawl cannot exceed 1000
- by default, label = True, if not true the general term is used 
+ use label = True if label used, if False the general term is used 
 
 """
 

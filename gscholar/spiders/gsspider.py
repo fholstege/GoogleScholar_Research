@@ -20,13 +20,13 @@ class gsspider_class(scrapy.Spider):
 	# name spider
 	name = "gsspider"
 
-	def __init__(self, subject, N_request, new_instance, label=True):
+	def __init__(self, subject, N_request, new_instance, label):
 		"""
 		when spider class is initialized, define the paramters
 		"""
 
 		# define label sought after, and base link for searched
-		if label:
+		if label == "True":
 			self.curr_subj = "label%3A" + subject
 		else:
 			self.curr_subj = subject
