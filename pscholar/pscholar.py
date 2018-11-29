@@ -20,7 +20,7 @@ class ProfileScholarSpider(scrapy.Spider):
     start_urls = []
 
     # open csv, and add each line as a start url 
-    file = open('physics_formatted_linkData.csv', 'r')
+    file = open('files/.csv', 'r')
     for row in file:
     	formatted = row.split('\n')
     	start_urls.append(formatted[0].strip())
