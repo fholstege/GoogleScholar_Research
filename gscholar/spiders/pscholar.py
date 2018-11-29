@@ -1,6 +1,5 @@
 """
 spider class that extract information of profile page on google scholar
-usage: cd the root folder, and then run scrapy runspider scraper.py
 """
 
 
@@ -16,20 +15,23 @@ import sys
 
 
 class ProfileScholarSpider(scrapy.Spider):
-    name = 'pscholar'
+    name = 'prof_spider'
+    
     start_urls = []
-
     # open csv, and add each line as a start url 
-    file = open('files/.csv', 'r')
-    for row in file:
-    	formatted = row.split('\n')
-    	start_urls.append(formatted[0].strip())
+    file = open('files/physics_links.csv', 'r')
 
-    def __init__(self):
+    for row in file:
+    	raw_row= row.split('\n')
+    	split_row = raw_row[0].split(',')
+    	url = split_row[1]
+    	start_urls.append(url.strip())
+
+    def __init__(self, subj):
 
 	    # save all entries of profs here
 	    self.prof_entries = []
-	    self.curr_subj = "physics"
+	    self.curr_subj = subj
 
 	    # send signal is spider closes
 	    dispatcher.connect(self.spider_closed, signals.spider_closed)
@@ -97,4 +99,4 @@ class ProfileScholarSpider(scrapy.Spider):
     # when spider closed, activate function profdata_to_csv
     def spider_closed(self, spider):
 
-	    self.profile_to_csv(self.curr_subj + "_profData.csv")
+	    self.profile_to_csv("files/" + self.curr_subj + "_profData.csv")
