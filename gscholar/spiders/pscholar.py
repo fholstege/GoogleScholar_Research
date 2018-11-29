@@ -27,11 +27,12 @@ class ProfileScholarSpider(scrapy.Spider):
     	url = split_row[1]
     	start_urls.append(url.strip())
 
-    def __init__(self, subj):
+    def __init__(self, subject, N_prof_request):
 
 	    # save all entries of profs here
 	    self.prof_entries = []
-	    self.curr_subj = subj
+	    self.curr_subj = subject
+	    self.N_prof_request = int(N_prof_request)
 
 	    # send signal is spider closes
 	    dispatcher.connect(self.spider_closed, signals.spider_closed)
@@ -65,7 +66,7 @@ class ProfileScholarSpider(scrapy.Spider):
 	    prof_institution = response.css(select_institution).extract_first()
 
 	    # check: if no institution, or "Homepage", enter "NA"
-	    if prof_institution is None or prof_institution is "Homepage": 
+	    if prof_institution is None or prof_institution == "Homepage": 
 		    prof_institution = "NA"
 
 	    # entry: a dict of professor features 
@@ -86,6 +87,10 @@ class ProfileScholarSpider(scrapy.Spider):
 
 	    # add entry to list of dicts with all entries 
 	    self.prof_entries.append(entry)
+
+	    if len(self.prof_entries) == self.N_prof_request:
+	    	raise CloseSpider('Max N of professors reached')
+
 
     # function to write out the dataframe with professor data to csv
     def profile_to_csv(self, name_csv):
