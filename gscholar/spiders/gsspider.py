@@ -11,6 +11,7 @@ from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
 import csv
 import sys
+import math
 
 
 # create spider class
@@ -19,13 +20,17 @@ class gsspider_class(scrapy.Spider):
 	# name spider
 	name = "gsspider"
 
-	def __init__(self, subject, N_request, new_instance):
+	def __init__(self, subject, N_request, new_instance, label=True):
 		"""
 		when spider class is initialized, define the paramters
 		"""
 
 		# define label sought after, and base link for searched
-		self.curr_subj = subject
+		if label:
+			self.curr_subj = "label%3A" + subject
+		else:
+			self.curr_subj = subject
+		
 		self.link_base = "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors="
 		
 		# number of current professors, and maximum number of professors
@@ -40,6 +45,9 @@ class gsspider_class(scrapy.Spider):
 		self.status_instance = new_instance.strip()
 		self.firstpage_check = True
 
+		# check if end of pages
+		self.end_pages = False
+
 		# acquire signal when spider is closed
 		dispatcher.connect(self.spider_closed, signals.spider_closed)
 
@@ -49,21 +57,27 @@ class gsspider_class(scrapy.Spider):
 		# check if new instance (no links in master file)
 		if self.status_instance == "True":
 
-			base_url = "https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label%3A" + self.curr_subj + "&btnG="
-
+			base_url = self.link_base + self.curr_subj + "&btnG="
+		# if not first page of query, get last link of previous crawl
 		else:
 
 			# load the csv where the current link is saved
 			with open('files/current_link_GoogleScholar.csv', "r") as f:
 				reader = csv.reader(f)
 
+				# get the link loaded in the csv
 				for row in reader:
 					base_url = row
 
-		if isinstance(base_url, list):
-			self.start_urls = [base_url[0]]
+		# if there is no link in the csv, shut down spider and spit out explanation
+		if base_url == []:
+			raise CloseSpider('No more pages to be scraped')
+		# if there is a link, check if list or not - based on that, chagen start_urls 
 		else:
-			self.start_urls = [base_url]
+			if isinstance(base_url, list):
+				self.start_urls = [base_url[0]]
+			else:
+				self.start_urls = [base_url]
 
 	def acquire_link_nextpage(self, nextpage_response):
 
@@ -77,7 +91,7 @@ class gsspider_class(scrapy.Spider):
 		nextpage_code = match_link.group(1)[4:-1]
 
 		# combine base link with current subject, the code, and current N of professors
-		nextpage_link = self.link_base + "label:"+self.curr_subj +"&after_author="+ nextpage_code + "&astart=" + str(self.curr_N_prof)
+		nextpage_link = self.link_base +self.curr_subj +"&after_author="+ nextpage_code + "&astart=" + str(self.curr_N_prof)
 
 		return nextpage_link
 
@@ -110,16 +124,16 @@ class gsspider_class(scrapy.Spider):
 			    # entry to dataset with links
 			    self.link_entries.append(link_profile)
 
+			    # add to profile counter 
 			    self.curr_N_prof = self.curr_N_prof + 1
 
 		# if there is a next page, and the max of professors searched has not been reached, go to next page
 		if next_page and self.curr_N_prof < self.max_prof:
 
-			print("current prof (list): ", len(self.link_entries))
-			print("current prof (counter): ", self.curr_N_prof)
-
+			# get link to next page
 			link_next_page = self.acquire_link_nextpage(next_page)
 
+			# define current page to remember
 			self.current_page = link_next_page
 
 	    	# send scrapy to next link, with callback to parse method 
