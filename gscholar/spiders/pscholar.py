@@ -7,11 +7,13 @@ spider class that extract information of profile page on google scholar
 import scrapy
 import re
 import html2text
-import pandas as pd
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
+from scrapy.extensions import closespider
 import csv
 import sys
+import pandas as pd
+import time
 
 
 class ProfileScholarSpider(scrapy.Spider):
@@ -19,27 +21,36 @@ class ProfileScholarSpider(scrapy.Spider):
     
     start_urls = []
     # open csv, and add each line as a start url 
-    file = open('files/physics_links.csv', 'r')
+    file = open('files/master_links_GoogleScholar.csv', 'r')
+
+    colnames = ['index','H_index','H_index_5','I_index','I_index_5','prof_insti','prof_name','tot_citations','tot_citations_5','url']
+    data = pd.read_csv('files/profData.csv', names=colnames)
+    scraped_urls = data.url.tolist()
 
     for row in file:
     	raw_row= row.split('\n')
     	split_row = raw_row[0].split(',')
     	url = split_row[1]
-    	start_urls.append(url.strip())
+    	url = url.strip()
 
-    def __init__(self, subject, N_prof_request):
+		# check if we have already scraped it, if not, let it be!
+    	if not url in scraped_urls:
+    		start_urls.append(url)
+
+    def __init__(self):
 
 	    # save all entries of profs here
 	    self.prof_entries = []
-	    self.curr_subj = subject
-	    self.N_prof_request = int(N_prof_request)
 
 	    # send signal is spider closes
 	    dispatcher.connect(self.spider_closed, signals.spider_closed)
 
     def parse(self, response):
 
-	    name_select = 'div[id="gsc_prf_in"]::text'
+	    name_select = 'div[id="gsc_prf_in"]::text' 
+		
+	    # retrieve url of professor
+	    prof_url = response.url
 
 	    # retrieve name of professor
 	    prof_name = response.css(name_select).extract_first()
@@ -79,7 +90,8 @@ class ProfileScholarSpider(scrapy.Spider):
 	    "H_index": H_index,
 	    "H_index_5": H_index_5,
 	    "I_index": I_index,
-	    "I_index_5": I_index_5
+	    "I_index_5": I_index_5,
+		"prof_url": prof_url
 
 	    }
 
@@ -88,8 +100,8 @@ class ProfileScholarSpider(scrapy.Spider):
 	    # add entry to list of dicts with all entries 
 	    self.prof_entries.append(entry)
 
-	    if len(self.prof_entries) == self.N_prof_request:
-	    	raise CloseSpider('Max N of professors reached')
+	    if len(self.prof_entries) % 50 == 0:
+	    	raise CloseSpider('Does this work?')
 
 
     # function to write out the dataframe with professor data to csv
@@ -98,10 +110,10 @@ class ProfileScholarSpider(scrapy.Spider):
 	    # create dataframe from list of dicts
 	    df_prof = pd.DataFrame.from_records(self.prof_entries)
 
-	    # write out dataframe to csv with filename = name_csv 
-	    df_prof.to_csv(name_csv)
+	    with open('files/profData.csv', 'a') as current_link_file:
+	    	 df_prof.to_csv(current_link_file, header=False)
 
     # when spider closed, activate function profdata_to_csv
     def spider_closed(self, spider):
 
-	    self.profile_to_csv("files/" + self.curr_subj + "_profData.csv")
+	    self.profile_to_csv("files/profData.csv")

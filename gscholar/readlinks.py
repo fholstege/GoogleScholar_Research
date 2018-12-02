@@ -1,7 +1,7 @@
 start_urls = []
 
 # open csv, and add each line as a start url 
-file = open('files/physics_links.csv', 'r')
+file = open('files/master_links_GoogleScholar.csv', 'r')
 
 for row in file:
 	formatted = row.split('\n')

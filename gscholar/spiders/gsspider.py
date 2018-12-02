@@ -12,6 +12,7 @@ from scrapy import signals
 import csv
 import sys
 import math
+import datetime
 
 
 # create spider class
@@ -68,6 +69,9 @@ class gsspider_class(scrapy.Spider):
 				# get the link loaded in the csv
 				for row in reader:
 					base_url = row
+				
+				print('base url:')
+				print(base_url)
 
 		# if there is no link in the csv, shut down spider and spit out explanation
 		if base_url == []:
@@ -143,7 +147,12 @@ class gsspider_class(scrapy.Spider):
 	def spider_closed(self, spider):
 
 		# current df with all the profs gathered this session
-		df_profs = pd.DataFrame({"links": self.link_entries})
+		df_profs = pd.DataFrame({
+			"links": self.link_entries, 
+			'subject': self.curr_subj,
+			'timestamp:': datetime.datetime.now()
+		})
+
 		# write out all the gathered links to the master file 
 		master_link_file = 'files/master_links_GoogleScholar.csv'
 		df_profs.to_csv(master_link_file, header=False, mode = 'a')

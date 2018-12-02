@@ -31,7 +31,7 @@ if N_request % profiles_perCrawl != 0:
 	exit()
 
 # check if N_per_crawl is below or equal to 1000
-if profiles_perCrawl >= 1000:
+if profiles_perCrawl > 1000:
 	print("N_per_crawl argument cannot exceed 1000 for performance reasons")
 	exit()
 
