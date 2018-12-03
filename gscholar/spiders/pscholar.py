@@ -9,7 +9,7 @@ import re
 import html2text
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
-from scrapy.extensions import closespider
+from scrapy.exceptions import CloseSpider
 import csv
 import sys
 import pandas as pd
@@ -23,19 +23,22 @@ class ProfileScholarSpider(scrapy.Spider):
     # open csv, and add each line as a start url 
     file = open('files/master_links_GoogleScholar.csv', 'r')
 
-    colnames = ['index','H_index','H_index_5','I_index','I_index_5','prof_insti','prof_name','tot_citations','tot_citations_5','url']
-    data = pd.read_csv('files/profData.csv', names=colnames)
-    scraped_urls = data.url.tolist()
+    # dataframe with all prof data, take the urls 
+    profs_scraped = pd.read_csv('files/profData.csv', sep=",")
+    list_scraped_urls = profs_scraped['url'].tolist()
 
+    # go through row in file, read link from which info needs to be scraped
     for row in file:
     	raw_row= row.split('\n')
     	split_row = raw_row[0].split(',')
-    	url = split_row[1]
-    	url = url.strip()
+    	url_extracted = split_row[1]
+    	curr_url = url_extracted.strip()
 
 		# check if we have already scraped it, if not, let it be!
-    	if not url in scraped_urls:
-    		start_urls.append(url)
+    	if not curr_url in list_scraped_urls:
+    		start_urls.append(curr_url)
+    	else:
+    		continue
 
     def __init__(self):
 
@@ -94,8 +97,6 @@ class ProfileScholarSpider(scrapy.Spider):
 		"prof_url": prof_url
 
 	    }
-
-	    print(entry)
 
 	    # add entry to list of dicts with all entries 
 	    self.prof_entries.append(entry)
