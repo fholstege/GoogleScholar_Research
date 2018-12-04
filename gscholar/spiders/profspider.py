@@ -90,5 +90,5 @@ class profspider(scrapy.Spider):
          # create dataframe from list of dicts
         df_prof = pd.DataFrame.from_records(self.prof_entries)
 
-        with open('files/profData_testv2.csv', 'a') as current_link_file:
+        with open('files/profData_physicsLinks.csv', 'a') as current_link_file:
             df_prof.to_csv(current_link_file, header=False)

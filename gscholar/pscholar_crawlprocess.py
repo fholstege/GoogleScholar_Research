@@ -7,21 +7,25 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
 from spiders.profspider import profspider
 
+# define max number of links per crawl
+N_links_perCrawl = 10
 
-N_links_perCrawl = 200
-
+# read the file with links
 file_withlinks = pd.read_csv('files/physics_links.csv', sep=',')
 
-N_requests = len(file_withlinks['link'])
+# the total N of links 
+N_links= len(file_withlinks['link'])
 
+# list with links 
 links_to_crawl = file_withlinks['link'].tolist()
 
-N_crawls = int(N_requests / N_links_perCrawl)
+# total of crawls 
+N_crawls = int(N_links/ N_links_perCrawl)
 
+# configure logging, instigate runner
 configure_logging()
 runner = CrawlerRunner()
 
-first = True
 
 @defer.inlineCallbacks
 
@@ -35,7 +39,6 @@ def crawl():
 
 		yield runner.crawl(profspider, links=links_curr_crawl)
 		print("Scraper paused")
-		time.sleep(30)
 	
 	reactor.stop()
 
