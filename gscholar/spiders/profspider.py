@@ -80,12 +80,8 @@ class profspider(scrapy.Spider):
 	    # add entry to list of dicts with all entries 
     	self.prof_entries.append(entry)
 
-    	if len(self.prof_entries) % 200 == 0:
-    		raise CloseSpider('Does this work?')
-
     # when spider closed, activate function profdata_to_csv
     def spider_closed(self, spider):
-        print("SPIDER IS DONE")
 
          # create dataframe from list of dicts
         df_prof = pd.DataFrame.from_records(self.prof_entries)
