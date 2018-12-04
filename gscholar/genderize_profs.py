@@ -2,7 +2,6 @@ from genderize import Genderize
 import pandas as pd
 from nameparser import HumanName
 
-
 colnames = ["index", "H_index", "H_index_5", "I_index","I_index_5","prof_insti","prof_name", "prof_url", "tot_citations", "tot_citations_5" ]
 profdata = pd.read_csv('files/profData_physicsLinks.csv', sep=';', names=colnames, encoding = "ISO-8859-1")
 
@@ -32,7 +31,6 @@ for name in ls_names_profs:
 			with open('results_genderize_physicsLinks.csv', 'wb') as csv_file:
 				writer = csv.writer(csv_file)
 				writer.writerow(result)
-
 
 
 
