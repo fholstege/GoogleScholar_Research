@@ -13,8 +13,11 @@ N_links_perCrawl = 10
 # read the file with links
 file_withlinks = pd.read_csv('files/physics_links.csv', sep=',')
 
+print(file_withlinks.head(5))
+
 # the total N of links 
-N_links= len(file_withlinks['link'])
+#N_links= len(file_withlinks['link'])
+N_links = 1000
 
 # list with links 
 links_to_crawl = file_withlinks['link'].tolist()
@@ -27,11 +30,10 @@ configure_logging()
 runner = CrawlerRunner()
 
 
+
 @defer.inlineCallbacks
-
 def crawl():
-	for i in range(N_crawls + 1):
-
+	for i in range(N_crawls):
 
 		firstrow = i * N_links_perCrawl
 		lastrow = (i + 1) * N_links_perCrawl
@@ -44,3 +46,5 @@ def crawl():
 
 crawl()
 reactor.run()
+
+		
