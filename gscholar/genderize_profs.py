@@ -1,3 +1,5 @@
+# make sure to have the Genderize folder in the repo
+# if not, clone from github
 from genderize import Genderize
 import pandas as pd
 from nameparser import HumanName
@@ -65,6 +67,6 @@ for name in ls_names_profs[0:20]:
 			count_prof = count_prof + 1
 
 
-print(profdata.head(5))
+profdata.to_csv('files/profData_withGender_physics_economics_philo.csv')
 
 			
