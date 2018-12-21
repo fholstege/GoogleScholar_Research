@@ -25,7 +25,7 @@ count_prof = 0
 
 # go through ALL the names
 # probs you want to do a smaller amount
-for name in ls_names_profs[0:20]:
+for name in ls_names_profs:
 
 	# parse the name with all its aspect
 	# this DOES take into account if the name is spelled as follows: Holstege, Floris
