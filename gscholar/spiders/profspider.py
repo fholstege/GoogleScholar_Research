@@ -90,7 +90,7 @@ class profspider(scrapy.Spider):
 
         print(df_prof.head(30))
 
-        with open('files/profData_physicsLinks.csv', 'a') as current_link_file:
+        with open('files/profData_historyLinks.csv', 'a') as current_link_file:
             df_prof.to_csv(current_link_file, header=False)
 
         self.prof_entries = []
