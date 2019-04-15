@@ -1,0 +1,2001 @@
+,name,wiki_bool,wiki_length
+0,Georg Kresse,False,0
+1,Gustavo E. Scuseria,False,0
+2,Alan Heeger,True,253
+3,Glen Cowan,True,2681
+4,Alice Bean,False,0
+5,DEYWIS MORENO,False,0
+6,Sehwook Lee,False,0
+7,A. Bodek,False,0
+8,H. Eugene Stanley,True,10897
+9,Farkhad Khalil-zada,False,0
+10,"Pekka Sinervo, FRSC",False,0
+11,Piyali Banerjee,False,0
+12,Andrea Ventura,False,0
+13,daniela bortoletto,False,0
+14,Carlo Dallapiccola,False,0
+15,Andrew Ivanov,False,0
+16,David M Strom,False,0
+17,Justin Albert,True,8909
+18,Halil Saka,False,0
+19,Gregor Herten,False,0
+20,Aaron Dominguez,False,0
+21,Mark Newman,True,12871
+22,H.J. Kim,False,0
+23,Masahiro Morii,False,0
+24,Srinivasan Iyengar,False,0
+25,Elliott Cheu,False,0
+26,Joao Guimaraes da Costa,False,0
+27,Oleg Yazyev,False,0
+28,Darien Wood,False,0
+29,Haijun Yang,False,0
+30,Andreas Warburton,False,0
+31,Philip Baringer,False,0
+32,Lev Davidovich Landau,True,304
+33,Carl Bromberg,False,0
+34,DongHee Kim,False,0
+35,Bruce Yabsley,False,0
+36,Nicolo de Groot,False,0
+37,Wendy J Taylor,False,0
+38,Gilvan Augusto Alves,False,0
+39,Stephane Willocq,False,0
+40,Klaus Honscheid,False,0
+41,Christine Kourkoumelis,False,0
+42,S L Lloyd,False,0
+43,John Rutherfoord,True,4882
+44,Mark Oreglia,False,0
+45,Gagan Mohanty,False,0
+46,Jean-Francois Arguin,False,0
+47,Stephen R Forrest,False,0
+48,Lev Dudko,False,0
+49,Eduard De La Cruz Burelo,False,0
+50,María Teresa Dova,False,0
+51,yorgos tsipolitis,False,0
+52,Frank Geurts,False,0
+53,Aran Garcia-Bellido,False,0
+54,Bernd Stelzer,False,0
+55,Steven G. Louie,False,0
+56,Juan E. Peralta,False,0
+57,francesco navarria,False,0
+58,John L Wood,False,0
+59,Markus Klute,False,0
+60,Giacomo Bruno,False,0
+61,Reinhard Schwienhorst,False,0
+62,Martijn Mulders,False,0
+63,Emilio Meschi,False,0
+64,Klaus Schulten,True,26382
+65,Sercan Sen,False,0
+66,Sheldon Stone,False,0
+67,Theo Alexopoulos,False,0
+68,Masahiro Kuze,False,0
+69,William A Goddard,False,0
+70,Panos Razis,False,0
+71,S. F. Novaes,False,0
+72,Jyothsna Komaragiri,False,0
+73,Douglas M Gingrich,False,0
+74,Veysi Erkcan Ozcan,False,0
+75,Florencia Canelli,False,0
+76,Toyoko J. Orimoto,False,0
+77,Prolay Mal,False,0
+78,Giulio Usai,False,0
+79,Guido Tonelli,True,8856
+80,Kieron Burke,False,0
+81,Andre Sznajder,False,0
+82,Brian Foster,True,748
+83,Ad Bax,True,8320
+84,Tulika Bose,False,0
+85,Pablo García Abia,False,0
+86,Kevin Black,True,553
+87,Oxana Smirnova,False,0
+88,Carlos Frenk,True,9468
+89,Dugan O'Neil,False,0
+90,Francisco Yumiceva,False,0
+91,Zoltán Trócsányi,False,0
+92,Yuri Tikhonov,False,0
+93,Freya Blekman,False,0
+94,Norbert Neumeister,False,0
+95,Richard Cavanaugh,False,0
+96,Zhihua Liang,False,0
+97,Subir Sarkar,False,0
+98,H.H.J. ten Kate,False,0
+99,Thomas Koffas,False,0
+100,Anna Di Ciaccio,False,0
+101,Martti Raidal,False,0
+102,Rudolf Frühwirth,False,0
+103,Edoardo Gorini,False,0
+104,Edward L. Wright,True,5162
+105,Josep Flix,False,0
+106,Guinyun Kim,False,0
+107,Francisco Matorras,False,0
+108,John W. Harris,False,0
+109,Hafeez R. Hoorani,False,0
+110,"Bee, Christopher",False,0
+111,Orhan CAKIR,False,0
+112,David Lopez Mateos,False,0
+113,Philip Butler,True,3643
+114,Timothy Heckman,False,0
+115,Thomas F. Stocker,False,0
+116,Sergey Peleganchuk,False,0
+117,Pedro Ferreira da Silva,False,0
+118,Kevin Stenson,False,0
+119,Raymond Frey,True,6564
+120,Victor T. Kim,False,0
+121,laura perini,False,0
+122,Efe Yazgan,False,0
+123,Josh Cogan,False,0
+124,Joao Carvalho,True,235
+125,David A. Weitz,True,3687
+126,Ignazio Lazzizzera,False,0
+127,Panja Luukka,False,0
+128,Gianluca Cerminara,False,0
+129,Frank Wilczek,True,19955
+130,Federica Legger,False,0
+131,Mingshui Chen,False,0
+132,Eija Tuominen,False,0
+133,Marisilvia Donadelli,False,0
+134,ferhat ozok,False,0
+135,Saleh Sultansoy,False,0
+136,Vincenzo Chiochia,False,0
+137,Mikhail Katsnelson,True,6139
+138,Christian Ohm,False,0
+139,Nathaniel Odell,True,238
+140,Philip Kim,True,10027
+141,Abbas Kenan Ciftci,False,0
+142,Mark Halpern,False,0
+143,Lovedeep Saini,False,0
+144,Flemming Besenbacher,False,0
+145,N. Wickramage,False,0
+146,André David,False,0
+147,John Terning,False,0
+148,Donal D C Bradley,False,0
+149,Jonathan Butterworth,True,494
+150,Ali Fahim,False,0
+151,Altan Cakir,False,0
+152,Victor Bobrovnikov,False,0
+153,Alessandro Gabrielli,False,0
+154,Giorgio Parisi,True,12184
+155,Joanna Dunkley,True,207
+156,Shlomo Havlin,True,7916
+157,Irinel Caprini,False,0
+158,Gary Hinshaw,True,2860
+159,kamal Benslama,False,0
+160,Loic Quertenmont,False,0
+161,Alexander Gude,False,0
+162,Yurii Kuyanov,False,0
+163,Z. F. Ren,False,0
+164,Howard Haber,True,224
+165,Matt Dobbs,False,0
+166,Hiroaki Aihara,False,0
+167,Katsushi Arisaka,False,0
+168,Yu-Gang Ma,False,0
+169,Shou-Cheng Zhang,True,214
+170,David Vanderbilt,True,2131
+171,Henry J Snaith,False,0
+172,Adam Riess,True,12791
+173,Mikhail D. lukin,False,0
+174,Amr Radi,False,0
+175,David Gerdes,True,7239
+176,David Joffe,False,0
+177,Jongki Kim,False,0
+178,Jürgen Kurths,True,6970
+179,Rene Bellwied,False,0
+180,A Zettl,False,0
+181,Jiandi Zhang,False,0
+182,Piers Forster,True,6028
+183,Rohin Narayan,False,0
+184,Rachik Soualah,False,0
+185,Robert L. Byer,True,6971
+186,Peter Skands,False,0
+187,Eunil Won,False,0
+188,Elliott Lieb,True,209
+189,James Yorke,True,529
+190,Matts Roos,False,0
+191,Kenta Shigaki,False,0
+192,Sijbrand de Jong,False,0
+193,Martin Grunewald,False,0
+194,Christopher Stubbs,True,4243
+195,Alexander Zaytsev,True,824
+196,Olaf Reimer,False,0
+197,Cumran Vafa,False,0
+198,Horst Wahl,False,0
+199,Heidi Schellman,True,7749
+200,Walt A de Heer,False,0
+201,Gordon Richards,True,11230
+202,Jeff Dahn,True,5846
+203,STUDY TO SHINE,False,0
+204,Istvan Csabai,False,0
+205,A.H. MacDonald,False,0
+206,Jens Erler,False,0
+207,Jo van den Brand,False,0
+208,Max Tegmark,True,14924
+209,eleonora luppi,False,0
+210,Алексей Талышев,False,0
+211,Stuart Parkin,True,11496
+212,Kay Kinoshita,False,0
+213,Julio F. Navarro,False,0
+214,Alessandro Petrolini,False,0
+215,I. Chuang,False,0
+216,Peter F. Michelson,False,0
+217,Stanley J. Brodsky,True,217
+218,Richard Van Kooten,False,0
+219,Chang-Seong Moon,False,0
+220,Karolos Potamianos,False,0
+221,John A. J. Matthews,False,0
+222,Norm Buchanan,False,0
+223,Peter Nordlander,False,0
+224,Baba Potukuchi,False,0
+225,Mile Dželalija,False,0
+226,FILIPPO GIORGI,False,0
+227,Riichiro Saito,False,0
+228,Timothy McKay,True,593
+229,John Gregory Learned,False,0
+230,Kevin S. McFarland,False,0
+231,Christos Touramanis,False,0
+232,German Valencia,False,0
+233,Tony F Heinz,False,0
+234,D. Mark Manley,False,0
+235,David Gross,True,14193
+236,Ricardo Graciani Diaz,False,0
+237,Keith Riles,False,0
+238,Shaun Cole,True,2551
+239,Rabindra Mohapatra,True,4115
+240,Peter E. Blöchl,False,0
+241,Joss Bland-Hawthorn,False,0
+242,S De Pasquale,False,0
+243,Andy Buckley,True,11151
+244,Peter G. Wolynes,False,0
+245,Patrick Sutton,True,233
+246,Sun Kee Kim,True,268
+247,Lawrence Wiencke,False,0
+248,Matthias Grosse Perdekamp,False,0
+249,Andrew G. Rinzler,False,0
+250,Charles Kane,True,627
+251,Zhi-xun Shen,False,0
+252,Angel Rubio,True,10386
+253,Fuqiang Wang,False,0
+254,Alexey Buzykaev,False,0
+255,Jan Conrad,False,0
+256,Steven Johnson,True,804
+257,Paul Corkum,True,11014
+258,Reto Knutti,True,2285
+259,Wladek Minor,False,0
+260,Lloyd Knox,False,0
+261,David Pines,True,17012
+262,Stuart Raby,False,0
+263,Mauricio Terrones,False,0
+264,Paul McEuen,True,5360
+265,David DiVincenzo,True,6468
+266,Bernd Surrow,False,0
+267,Bill Gabella,False,0
+268,Giacomo Ortona,False,0
+269,Efstathios Stiliaris,False,0
+270,Ding-Xiong Wang,False,0
+271,EUGENIO PAOLONI,False,0
+272,John Schwarz,True,595
+273,Lawrence Pinsky,True,1484
+274,Prof. Raghunath Sahoo,False,0
+275,Johanna Stachel,True,9803
+276,Ravhi Kumar,False,0
+277,David R. Nelson,True,232
+278,Samo Stanic,False,0
+279,Valerio Bocci,False,0
+280,Mikhail Shifman,True,11744
+281,Masashi Hazumi,False,0
+282,Adrian Buzatu,False,0
+283,Takayuki Sumiyoshi,False,0
+284,SHIMON               WEISS,False,0
+285,Karsten Danzmann,False,0
+286,Steven M. Girvin,True,208
+287,Olga Botner,False,0
+288,Phil Lubin,False,0
+289,Mark Wise,True,149
+290,David Ritchie,True,1349
+291,Francesco Fidecaro,False,0
+292,Jonathan Knight,True,10370
+293,Alessandra Buonanno,True,4276
+294,Piergiorgio Fusco,False,0
+295,Fabio Marchesoni,False,0
+296,Nobuyuki Kawai,False,0
+297,Daniel Loss,True,4693
+298,Ado Jorio,False,0
+299,Chunhai Fan,False,0
+300,Francois Peeters,False,0
+301,Hanshuang Chen（陈含爽）,False,0
+302,Hawoong Jeong,False,0
+303,Arthur P. Ramirez,False,0
+304,Shaul Mukamel,True,3882
+305,Declan Keane,False,0
+306,Ольга Резанова,False,0
+307,Jamie Holder,False,0
+308,Fabrizio Murtas,False,0
+309,Axel Drees,False,0
+310,Francis Halzen,True,3043
+311,John Haggerty,True,6941
+312,Kevin Finelli,False,0
+313,Bruce Allen,True,823
+314,Ahmed Bassalat,False,0
+315,John Collins,True,4274
+316,Amnon Aharony,False,0
+317,Alexei Starobinsky (Starobinskii),False,0
+318,richard l. greene,False,0
+319,D J Sellmyer,False,0
+320,M. Zahid Hasan,True,9575
+321,Che Ting Chan,False,0
+322,Juan Bisquert,True,4540
+323,Markus Buttiker,False,0
+324,Alec Habig,False,0
+325,Ursula Keller,True,5815
+326,zhang Lan,True,6310
+327,W.A. Zajc,False,0
+328,Peter Kravtsov,False,0
+329,Jens Jorgen Gaardhoje,False,0
+330,Jean Cleymans,True,2662
+331,Gareth J Barker,False,0
+332,Joel Primack,True,4790
+333,Atac Imamoglu,True,253
+334,Tsvi Piran,True,11526
+335,Subir Sachdev,True,68301
+336,Avishai Dekel,True,5836
+337,Ian Bearden,False,0
+338,Yusuf Oğuzhan Günaydın,False,0
+339,Mireia Crispín Ortuzar,False,0
+340,Paul T Baker,False,0
+341,Uzi Landman,True,1095
+342,Sabin Stoica,False,0
+343,Anthony Timmins,False,0
+344,J T Gosling,False,0
+345,rachid ayad,False,0
+346,Martin Plenio,False,0
+347,B Alex Brown,False,0
+348,Akhtar Mahmood,False,0
+349,W.R. Peltier,False,0
+350,Xiao-Gang Wen,True,11678
+351,Kerry Vahala,True,2892
+352,Fulvio Ricci,False,0
+353,G. Peter Lepage,True,12324
+354,M. J. D. Powell,True,229
+355,Christopher Monroe,True,8926
+356,V. Pugatch,False,0
+357,Eugenio Coccia,False,0
+358,Nicola Omodei,False,0
+359,Robert Jaffe,True,3629
+360,Igor R. Klebanov,True,165
+361,Robert L Whetten,False,0
+362,Andrew Millis,False,0
+363,Atsushi Fujimori,False,0
+364,Dr. Pramod Lamichhane,False,0
+365,Sebastian Carron,False,0
+366,Crispin Gardiner,True,16576
+367,Paul M Chaikin,False,0
+368,Franz Himpsel,False,0
+369,Daniel Joubert,True,208
+370,Kenneth A. Strain,False,0
+371,José W F Valle,False,0
+372,WGD Dharmaratna,False,0
+373,Zongxian Yang,False,0
+374,Arjun Yodh,False,0
+375,Hermann E.Gaub,False,0
+376,Geoffrey Fox,True,817
+377,Alfons Weber,False,0
+378,Douglas Fields,False,0
+379,GEORGE GRUNER,False,0
+380,F. D. M. Haldane,False,0
+381,David Reitze,True,5435
+382,Reinhard Schlickeiser,False,0
+383,Eric Cornell,True,158
+384,kotliar,True,195
+385,Saad Mohammed,False,0
+386,Kenneth N. Barish,False,0
+387,Keh-Fei Liu,False,0
+388,Andreas Freise,False,0
+389,Arturo Menchaca Rocha,False,0
+390,J. Allyn Smith,False,0
+391,John March-Russell,False,0
+392,Hannu Kurki-Suonio,False,0
+393,Roberto Battiston,False,0
+394,Patrick Brady,True,625
+395,Danilo Zavrtanik,True,3096
+396,Peter S. Shawhan,False,0
+397,Hui Zhang,True,249
+398,David A Muller,False,0
+399,David Tomanek,False,0
+400,"Lars Hultman, Professor, PhD",False,0
+401,Vlatko Vedral,True,5121
+402,Steve Maddox,False,0
+403,Ctirad Uher,True,6588
+404,Gianpietro Cagnoli,False,0
+405,David McClelland,True,14960
+406,Domenico Di Bari,False,0
+407,Lesya Shchutska,False,0
+408,Rana X. Adhikari,False,0
+409,Linda Tacconi,False,0
+410,Mihai Petrovici,False,0
+411,Justin Garofoli,False,0
+412,Jason H. Hafner,False,0
+413,Michael Gorodetsky,False,0
+414,E.K.U. Gross,False,0
+415,Andreas Berlind,False,0
+416,Jeffrey A. Harvey,True,2506
+417,Benjamin J. Eggleton,True,215
+418,Stefano Baroni,False,0
+419,Bernard F Whiting,False,0
+420,Eric Mazur,True,9983
+421,Jan Ridky,False,0
+422,Jon Thaler,False,0
+423,Weimin Liu,False,0
+424,Chang-Hwan Lee,True,219
+425,christian farnier,False,0
+426,Robert Schoelkopf,False,0
+427,Xiangzhou Cai,False,0
+428,John J. Rehr,True,7605
+429,P. Sokolsky,False,0
+430,Neil Cornish,False,0
+431,carlo rovelli,False,0
+432,Dan Ralph,False,0
+433,Carl M Bender,False,0
+434,Heino Falcke,True,9053
+435,Ib Chorkendorff,False,0
+436,Håvard Helstrup,False,0
+437,Ligang Feng,False,0
+438,N. Phuan Ong,False,0
+439,Jan J. Koenderink,False,0
+440,Dieter Horns,False,0
+441,Li Ju  (鞠莉）,False,0
+442,Frank Steglich,True,4125
+443,L. Jay Guo,False,0
+444,Dapeng YU,False,0
+445,Stephane Chauvie,False,0
+446,Dan M. STAMPER-KURN,False,0
+447,Joshua R. Smith,False,0
+448,antonio riotto,False,0
+449,John Q. Xiao,False,0
+450,Miklos Gyulassy,False,0
+451,Werner Blau,False,0
+452,Randall V Martin,False,0
+453,Indranil Das,False,0
+454,Roland Wiesendanger,False,0
+455,Matthew Evans,True,975
+456,Ghosh Sanjay K.,False,0
+457,Eun Ha Choi,False,0
+458,Arkady Pikovsky,False,0
+459,Risto Ilmoniemi,False,0
+460,C. L. Chien,False,0
+461,Masashi Kaneta,False,0
+462,bart van wees,False,0
+463,Tiffany Summerscales,False,0
+464,CP Singh,True,276
+465,"Sipe, J.E.",False,0
+466,Jesper Munch,False,0
+467,J F  Nye,False,0
+468,Henry Kapteyn,False,0
+469,Romualdo Pastor-Satorras,False,0
+470,Gary T. Horowitz,False,0
+471,Yan Wang 王燕 中科院福建物质结构研究所,False,0
+472,Francisco J. Garcia-Vidal,False,0
+473,Zeblon Vilakazi,False,0
+474,Kent D. Irwin,False,0
+475,Hung-Liang Lai,False,0
+476,Sascha Husa,True,2729
+477,XI DAI,False,0
+478,Giovanni Ciccotti,True,2459
+479,chad hanna,False,0
+480,Tamás Csörgő,False,0
+481,Kumar H K T,False,0
+482,Raoul Kopelman,False,0
+483,Brian Sales,False,0
+484,Margaret Murnane,True,8731
+485,William H. Matthaeus,False,0
+486,Kurt Wiesenfeld,True,3315
+487,Tobias J Kippenberg,False,0
+488,Read Montague,True,17222
+489,francesco sciortino,False,0
+490,Conor Mow-Lowry,False,0
+491,Neil Greenham,False,0
+492,Humberto Terrones,False,0
+493,Alfredo Pasquarello,False,0
+494,Jiangyue Zhang,False,0
+495,Tomasz Dietl,True,2794
+496,Dave Pritchard,False,0
+497,Efthimios Kaxiras,False,0
+498,Jean-Christophe Charlier,False,0
+499,Malvin Carl Teich,False,0
+500,Leonard Feldman,True,1472
+501,Stefan Rahmstorf,True,15437
+502,Richard Thorne,False,0
+503,Guido Martinelli,False,0
+504,Renu Bala,False,0
+505,Marcus Hohlmann,False,0
+506,J. Warren Beck,False,0
+507,M. Patrick Decowski,False,0
+508,J. E. Hirsch,False,0
+509,Karin M. Rabe,False,0
+510,Karsten M. Heeger,False,0
+511,Detlef Lohse,True,2981
+512,Gary Ferland,False,0
+513,Harald Giessen,False,0
+514,Arthur Hebard,False,0
+515,Jeffrey A. Newman,False,0
+516,William L Barnes,False,0
+517,Bing Zhang,False,0
+518,Hong Li,False,0
+519,Peter Günter,False,0
+520,chunnong zhao,False,0
+521,Painter,True,224
+522,Eshel Ben-Jacob,True,14835
+523,Jürgen HENNIG,False,0
+524,Yamir Moreno,False,0
+525,Ahmad Moshaii,False,0
+526,Karsten W. Jacobsen,False,0
+527,Forrest Mozer,True,216
+528,P Jena,False,0
+529,Greg B. Taylor,False,0
+530,Friedrich-Karl Thielemann,True,2693
+531,Helios Vocca,False,0
+532,Raman Sundrum,True,3574
+533,Leon Balents,False,0
+534,Jianfang Wang (王建方),False,0
+535,Chao Tang,True,5281
+536,Maria Vasileiou,False,0
+537,Dr RAVI SHARMA,False,0
+538,Olle Eriksson,True,221
+539,H. Helmholtz,True,172
+540,Jon E. Gudmundsson,False,0
+541,Henry Abarbanel,False,0
+542,Frank Wise,True,7852
+543,David P. Landau,True,2355
+544,Sunil K. Sinha,False,0
+545,Michele Heurs,False,0
+546,John W. Price,False,0
+547,Pradip Kumar Sahu,False,0
+548,Samuel L. Braunstein,True,4512
+549,Heinrich Jaeger,False,0
+550,Marcos A Pimenta,False,0
+551,r laflamme,False,0
+552,Robert J. Nemanich,False,0
+553,Gottfried Münzenberg,True,2766
+554,Michael L Norman,False,0
+555,Dani Or,False,0
+556,Yoichiro Nambu,True,15069
+557,Kishan Dholakia,False,0
+558,C.-P. Yuan,False,0
+559,Berndt Mueller,False,0
+560,Michael Rosenblum,True,4667
+561,Laurens W Molenkamp,False,0
+562,Juha Äystö,False,0
+563,Zhenyu Ye,False,0
+564,Steven White,True,575
+565,(Wei-Hua WANG) 汪卫华,False,0
+566,Pavel Nadolsky,False,0
+567,Arun Bansil,False,0
+568,Masashi Yokoyama,False,0
+569,Anders Nilsson,True,680
+570,Sandun Jayarathna,False,0
+571,Eric Thrane,False,0
+572,rajeev ahuja,False,0
+573,Eugene Demler,False,0
+574,Zvi Bern,True,7006
+575,Boris Shklovskii,True,2680
+576,Gennady Zinovjev,False,0
+577,Peter Raffai,False,0
+578,Dr. Pradeep Sharma,False,0
+579,daniel holz,False,0
+580,Curtis Meyer,False,0
+581,Sauro Succi,True,4792
+582,Matthias Ballauff,False,0
+583,Erio Tosatti,True,18204
+584,V. Mukhanov,False,0
+585,Jan Zaanen,True,10759
+586,George Bertsch,False,0
+587,reem sari,False,0
+588,Lee Samuel Finn,True,2078
+589,Daniel Shaddock,False,0
+590,Jacob D. Bekenstein,True,259
+591,Massimo Inguscio,False,0
+592,Richard M. Osgood Jr,False,0
+593,Andrew Collier Cameron,True,8357
+594,William D. Phillips,True,195
+595,Brian Fields,False,0
+596,boris shraiman,False,0
+597,Arun Kumar,True,706
+598,John Spence  FRS,False,0
+599,Joe Greene,True,45665
+600,K.R. Sreenivasan,True,239
+601,FERNANDO ATRIO BARANDELA,False,0
+602,Rahul R Nair,False,0
+603,Ta-Kun Chen,False,0
+604,David Kawall,False,0
+605,Dr Anil Kumar Koneti,False,0
+606,João R T  de Mello Neto,False,0
+607,Jörg Wrachtrup,True,2512
+608,James Lattimer,True,6478
+609,Liu Lei,True,5184
+610,Stewart Clark,True,3166
+611,Misha (Mikhail) Ivanov,False,0
+612,Michael S. Fuhrer,False,0
+613,Neeraj Kumar,True,2934
+614,Georg Raffelt,False,0
+615,Shamit Kachru,True,5273
+616,John Wilkerson,True,201
+617,David J Pine,False,0
+618,L. Allen,False,0
+619,Gianmaria Collazuol,False,0
+620,David G Grier,False,0
+621,Alexander Gaeta,False,0
+622,Alain Karma,False,0
+623,Koblar Jackson,False,0
+624,Jiri Homola,True,272
+625,Gennady Gavrilov,True,300
+626,Robert H. Swendsen,False,0
+627,Haim Sompolinsky,True,4908
+628,D Chrisey,False,0
+629,Soebur Razzaque,False,0
+630,John M. Tranquada,False,0
+631,José Luís Martins,False,0
+632,Zhen Hou,False,0
+633,Amir Yacoby,True,1360
+634,Takeshi Egami,False,0
+635,Glennys R Farrar,False,0
+636,Stanley W H Cowley,False,0
+637,Stefano Forte,False,0
+638,Yoichi Ando,False,0
+639,Giulio Cerullo,False,0
+640,Carlton M Caves,False,0
+641,Ryan P. Fisher,False,0
+642,Michael Stamatikos,False,0
+643,Mirjam Cvetic,False,0
+644,Yi-Cheng Zhang,False,0
+645,László Árpád Gergely,False,0
+646,Christopher Rogan,False,0
+647,John Gizis,False,0
+648,Peter B Littlewood,False,0
+649,Hartmut Löwen,False,0
+650,Robert Rosner,True,3301
+651,Aleksandr Korol,False,0
+652,Adrian T LEE,False,0
+653,Pedro Ferreira,True,2703
+654,Simon Connell,False,0
+655,James Crutchfield,True,14168
+656,Romeel Davé,False,0
+657,Margaret Kivelson,True,194
+658,Barbaros Oezyilmaz,False,0
+659,Adel Awad,False,0
+660,Valery Telnov,False,0
+661,Thomas Dent,True,804
+662,Anne L'Huillier,True,5083
+663,Jürg Fröhlich,True,6244
+664,Nicolas Produit,False,0
+665,Kevork N. Abazajian,False,0
+666,David R McKenzie,False,0
+667,Reinhard F. Werner,False,0
+668,Guenther Rosner,False,0
+669,Michael Fleischhauer,False,0
+670,Dumitru Baleanu,False,0
+671,Ping Zhang,True,5626
+672,Lorenzo Pavesi,False,0
+673,Michael Rubinstein,True,4092
+674,Maciej A. Nowak,False,0
+675,Clarence Virtue,False,0
+676,Misao Sasaki,False,0
+677,Matthias Troyer,False,0
+678,Michael W Coughlin,False,0
+679,Segev BenZvi,False,0
+680,Salim Çıracı,False,0
+681,John Preskill,True,3812
+682,Gino Isidori,False,0
+683,Randall G Hulet,False,0
+684,Boris Gaensicke,False,0
+685,R. T. Williams,False,0
+686,Harald Fuchs,True,2609
+687,Amitkumar Singh,False,0
+688,Dr. Nukri Komin,False,0
+689,Duncan Lorimer,False,0
+690,Dr. Ajay Kumar Srivastava,False,0
+691,Armin Bunde,False,0
+692,Zhengwei Pan,False,0
+693,Riaan Steenkamp,False,0
+694,Evgenij Martynov,False,0
+695,Flemming Videbaek,False,0
+696,Alan D. Sokal,True,153
+697,Zhiguo Wang,False,0
+698,Riccardo Rattazzi,True,8588
+699,Andrew  T S Wee,False,0
+700,Jürgen P. Rabe,True,18405
+701,Risa Wechsler,True,4746
+702,Gerd Ulrich Nienhaus,False,0
+703,J Pumplin,False,0
+704,DWO Rogers,False,0
+705,Patricia Rebello Teles,False,0
+706,Giacomo Ciani,False,0
+707,Arto Nurmikko,True,3422
+708,David Bishop,True,16181
+709,Herbert Spohn,True,2848
+710,Gerrit van der Laan,False,0
+711,Giorgio Stefanini,False,0
+712,Sol M. Gruner,False,0
+713,Ajay Kumar,True,672
+714,Colin D O'Dowd,False,0
+715,Ram S. Katiyar,False,0
+716,Rosario Nunzio Mantegna,False,0
+717,Richard Averitt,False,0
+718,Michael Duff,True,572
+719,Antonio Pich,False,0
+720,Stephen R Leone,False,0
+721,Ashfaq Ahmad,True,182
+722,Tyce DeYoung,False,0
+723,Markus Greiner,True,4241
+724,Valery Konstantinovich Lukyanov,False,0
+725,Eleftherios N. Economou,False,0
+726,Pran Nath,True,8636
+727,Matjaž Perc,True,19445
+728,Frank Verstraete,True,3514
+729,Tao ZHANG,False,0
+730,M. Di Ventra,False,0
+731,Gerd Schön,False,0
+732,Stamatios Krimigis,True,5591
+733,Chris Quigg,True,7064
+734,R.  Sugar,False,0
+735,Jerzy (Jerry) Bernholc,False,0
+736,Hans J Briegel,False,0
+737,"Nazife Koca (Nazife Ozdes, Nazife Ozdes Koca, N. Ozdes)",False,0
+738,Alain Dereux,False,0
+739,RE Johnson,False,0
+740,Richard B. Frankel,True,6925
+741,PetukhoV. P.,False,0
+742,De Hosson,False,0
+743,Jeffrey B. Neaton,False,0
+744,Burkard Hillebrands,True,7797
+745,Robert D. Pisarski,False,0
+746,Bianconi Antonio,False,0
+747,Manfred Lenzen,False,0
+748,Philip Kaaret,False,0
+749,Frank Julicher,False,0
+750,jv barth,False,0
+751,Eduardo Fradkin,True,6715
+752,Naomi van der Kolk,False,0
+753,Johann (Jan) Rafelski,False,0
+754,Hsin Lin,False,0
+755,Thomas D. Gutierrez,False,0
+756,a.t. charlie Johnson,False,0
+757,Matthew Malek,False,0
+758,Victor Fadin,False,0
+759,Michael Cooper,True,26161
+760,Weibo Cai,False,0
+761,Sebastian Kuhn,False,0
+762,yukio tanaka,False,0
+763,Dr.Atul kumar,False,0
+764,A. K. Sood,True,208
+765,John Donoghue,True,712
+766,Zoltan Fodor,True,274
+767,Michael Johnston,True,882
+768,Francesco Mainardi,True,3977
+769,David Carroll,True,853
+770,Gustaaf Borghs,False,0
+771,Lars G M Pettersson,False,0
+772,Hong Ding,False,0
+773,Paul Evenson,False,0
+774,A. L. Efros,False,0
+775,Clifford Will,True,228
+776,Thomas E Cowan,False,0
+777,Patrick Diamond,True,7088
+778,Dmitri Smirnov,True,249
+779,Airton Deppman,False,0
+780,Pierre Ramond,True,8669
+781,Sergio Rodriguez,True,261
+782,Xiaoqing Pan,False,0
+783,Zhong-Shuai Wu,False,0
+784,Carsten Peterson,True,3690
+785,Michele Cappellari,False,0
+786,Benjamin Grinstein,False,0
+787,John H. Weaver,False,0
+788,A. Douglas Stone,False,0
+789,Nayana Majumdar,False,0
+790,Bruce Ravel,False,0
+791,Kyungmin Kim,False,0
+792,Claude Bernard,True,22546
+793,David Kleinfeld,False,0
+794,Dennis Mackin,False,0
+795,Angelo Vulpiani,False,0
+796,Alexander Heger,False,0
+797,Mansoor Sheik-Bahae,False,0
+798,Ingrid Stairs,False,0
+799,Adam Bernstein,True,5829
+800,Dieter Heermann,False,0
+801,Kai Nordlund,False,0
+802,Tim Stelzer,False,0
+803,Martin Nikl,False,0
+804,Klaus Ensslin,False,0
+805,Paolo Franchini,False,0
+806,Xiangdong ji,False,0
+807,Xingjiang Zhu,False,0
+808,Ian Fisher,True,751
+809,dirk bouwmeester,False,0
+810,J. Jason Ward,False,0
+811,Yuan Ping Feng,False,0
+812,Ivan Mora-Sero,False,0
+813,Chunbo Zhao (赵春勃),False,0
+814,Laura Herz,True,11279
+815,Sanjeev kumar,False,0
+816,Feng Miao,False,0
+817,Marcus Müller,False,0
+818,Tae Won Noh,True,249
+819,R C McPhedran,False,0
+820,Roberto Messi,False,0
+821,Hyun Su Lee,False,0
+822,Thomas M. Antonsen Jr.,False,0
+823,"Anton, Gisela",False,0
+824,A E Dangor,False,0
+825,Udo Seifert,False,0
+826,Mark Strikman,False,0
+827,José F.F. Mendes,False,0
+828,G. Allan Johnson,False,0
+829,Christian Schoenenberger,False,0
+830,Scott Murchie,False,0
+831,Andrew Levan,False,0
+832,Youbao Wang,False,0
+833,Sudip Chakravarty,False,0
+834,Helmut Satz,False,0
+835,Joel R. Brownstein,False,0
+836,Nicolas Grandjean,True,4706
+837,Ignacio Taboada,False,0
+838,Dr. Pramod Kumar Mishra,False,0
+839,Seon-Hee Seo,False,0
+840,Wang Yao,True,193
+841,Ulrich Mosel,False,0
+842,Hong-Jun Gao,False,0
+843,Willy Fischler,True,3613
+844,Javier Aizpurua,False,0
+845,Eugene Polzik,True,198
+846,Alexandre Blais,False,0
+847,Robert Budny,False,0
+848,Yagola Anatoly,False,0
+849,Peiherng Hor,False,0
+850,Krishna Rajagopal,False,0
+851,Mohit Randeria,True,13374
+852,Denis Epifanov,False,0
+853,Ping Koy LAM,False,0
+854,Hui Cao,False,0
+855,Elaine M. Sadler,False,0
+856,Paul J Keall,False,0
+857,Witold Nazarewicz,True,2911
+858,Jonathan Link,False,0
+859,Vincent H Crespi,False,0
+860,Andrea Taracchini,False,0
+861,Francis A Cucinotta,False,0
+862,Dariusz Gora,False,0
+863,Hubert Degaudenzi,False,0
+864,Emil Schreiber,False,0
+865,Tom Abel,True,2444
+866,Yue WU - UNC,False,0
+867,Huan-Xiang Zhou,False,0
+868,Alex B. Nielsen,False,0
+869,B.R. Dawson,False,0
+870,Jaroslav Fabian,False,0
+871,Daniel Kaplan,False,0
+872,Eli Waxman,False,0
+873,Krzysztof Szalewicz,False,0
+874,Dorothea Pfeiffer,False,0
+875,Ashvin Vishwanath,True,3188
+876,Robert B. Mann,False,0
+877,Reinhard A. Schumacher,False,0
+878,Mustafa Lotya,False,0
+879,Arnold Benz,False,0
+880,Ruprecht Machleidt,True,5132
+881,Roberto Gallino,False,0
+882,Michael Sadler,True,755
+883,Robert Caldwell,True,16236
+884,Apostolos Pilaftsis,False,0
+885,Andrew Coates,False,0
+886,Jonathan P. Dowling,True,226
+887,Robert Evans,True,24813
+888,Michal Czakon,False,0
+889,Dennis Stello,False,0
+890,Dieter Jaksch,False,0
+891,Lawrence Weinstein,False,0
+892,Sergey Savrasov,False,0
+893,Antony Michael Hillas,False,0
+894,Di Xiao,True,9851
+895,VAROTSOS COSTAS,False,0
+896,Yu Hang Leung (Ian),False,0
+897,Paul Selvin,False,0
+898,Bharat Ratra,True,6082
+899,John R. Klauder,True,4158
+900,Xuejie Gao,False,0
+901,Li Haibo,False,0
+902,Vinod Kumar,True,5757
+903,Santabrata Das,False,0
+904,Carleton DeTar,False,0
+905,Bert Hecht,False,0
+906,Gerhard K. Mallot,False,0
+907,Axel Hoffmann,True,1037
+908,Walter Kob,False,0
+909,S. James Remington,False,0
+910,Richard KOUZES,False,0
+911,Ajay Vikram Singh,False,0
+912,Leon Cohen,True,13244
+913,Nitin Samarth,True,4475
+914,Eckart Marsch,True,14908
+915,Simon Morris,True,392
+916,Randall Feenstra,False,0
+917,George Jackson,True,2656
+918,Andrew White,True,1328
+919,James G. Miller,False,0
+920,Eric Bergshoeff,False,0
+921,C.S. Fadley,False,0
+922,Axel Timmermann,True,8507
+923,Paolo G. Radaelli,True,194
+924,VINOD KUMAR SUMAN,False,0
+925,Dr. A K Singh,False,0
+926,Cyrus R. Safinya,False,0
+927,Olaf Scholten,False,0
+928,Jon S Kapustinsky,False,0
+929,Gang Xiao,False,0
+930,Tianjun Zhou,False,0
+931,Warren Siegel,True,5222
+932,Sandor D Katz,False,0
+933,Megan Donahue,True,3254
+934,Henry M. van Driel ,False,0
+935,Hoi-Kwong Lo,False,0
+936,Siegfried Bauer,True,903
+937,Gregory Salamo,False,0
+938,Ian S. McLean,False,0
+939,Shuang Zhang,False,0
+940,Marc Caffee,False,0
+941,Julien Clinton Sprott,False,0
+942,Don Page,True,765
+943,Chris H. Greene,False,0
+944,Eckehard Schöll,True,7825
+945,Santhosh Kumar S,False,0
+946,Sukanta De,False,0
+947,Andri M. Gretarsson,False,0
+948,Qaisar Shafi,False,0
+949,Ivan Petrov,True,802
+950,Anatoly V Zayats,False,0
+951,Jens Feder,True,2103
+952,Dr. Muhammad Ajmal Khan,False,0
+953,Ronald Boellaard,False,0
+954,Philipp Podsiadlowski,False,0
+955,John W Negele,False,0
+956,Xiaodong Xu,False,0
+957,Cristian Vignali,False,0
+958,Vassilis Charmandaris,False,0
+959,Reina H. Maruyama,False,0
+960,John F. Marko,False,0
+961,Peter D. Drummond,False,0
+962,Daniel Bonn,False,0
+963,John F. Clauser,False,0
+964,Franz Pfeiffer,True,6801
+965,Nigel Goldenfeld,True,2724
+966,Wei-Kan Chu,True,2282
+967,Werner Ebeling,True,5378
+968,Chetan Nayak,False,0
+969,Zaza Metreveli,False,0
+970,David Kardelis,False,0
+971,Daniel Kikoła,False,0
+972,Seunghun Hong,False,0
+973,Steven Cundiff,True,8805
+974,Thomas Brabec,False,0
+975,Vernesa Smolcic,False,0
+976,Philippe Ghosez,False,0
+977,Mike Lockwood,True,255
+978,Dan McCammon,False,0
+979,Alexander Y Grosberg,False,0
+980,Kellogg Stelle,False,0
+981,Zein-Eddine Meziani,False,0
+982,Lars Bergstrom,True,278
+983,Mohamed Henini,False,0
+984,Dieter Vollhardt,True,5611
+985,Wei Cheng Wang,False,0
+986,J M Yeomans,False,0
+987,Louis Taillefer,False,0
+988,Duncan Hanson,False,0
+989,Wei Cui,False,0
+990,James Kirchner,True,2622
+991,Nidal M. Ershaidat,False,0
+992,Chris Xu,True,2159
+993,Ramni Gupta,False,0
+994,Keivan G. Stassun,False,0
+995,Matthew R. Shepherd,False,0
+996,Jürgen R. Reichenbach,False,0
+997,Björn Jonson,False,0
+998,Mark Brodwin,False,0
+999,Pawel Hawrylak,False,0
+1000,Slobodan Zumer,False,0
+1001,John F. Beacom,False,0
+1002,moty heiblum,False,0
+1003,Laurence Yaffe,False,0
+1004,Wolfgang Dür,False,0
+1005,Marinoni Christian,False,0
+1006,Mariafelicia De Laurentis,False,0
+1007,Fernando Ponce,False,0
+1008,Gerhard Gompper,False,0
+1009,Pradeep Sarin,False,0
+1010,Ian Grant,True,1642
+1011,Pablo Jarillo-Herrero,False,0
+1012,Dawn K. Erb,False,0
+1013,Armin Hansel,False,0
+1014,Patrick Briddon,False,0
+1015,Ram Mehar Singh,False,0
+1016,Terry Tritt,False,0
+1017,James C. Gumbart,False,0
+1018,Rickard Lundin,False,0
+1019,Bernd Jähne,False,0
+1020,Li Yanshuo,False,0
+1021,Tze-Chien SUM (岑子健),False,0
+1022,Csaba Csaki,True,272
+1023,maxi san miguel,False,0
+1024,Chris Dainty,True,216
+1025,Mark Robbins,False,0
+1026,Bao-An Li,False,0
+1027,Geoffrey Lovelace,False,0
+1028,Luigi Del Debbio,False,0
+1029,massimo porrati,False,0
+1030,Nicolae Barsan,False,0
+1031,"glover, e.w.n",False,0
+1032,Mark van Schilfgaarde,False,0
+1033,Satyendra Narayan Singh,True,201
+1034,Mauro Nisoli,False,0
+1035,Matt Anderson,True,863
+1036,Yanhua Shih,False,0
+1037,brian mcnamara,False,0
+1038,Guowang Xu,False,0
+1039,Anna Tramontano,True,5773
+1040,Rupak Mahapatra,False,0
+1041,Leif Lönnblad,False,0
+1042,Chii Dong Lin,False,0
+1043,Richard D Ball,False,0
+1044,Vincent Meunier,False,0
+1045,Rohini M Godbole,False,0
+1046,Koen Clays,False,0
+1047,Jean-Jacques Greffet,False,0
+1048,Costas Kounnas,False,0
+1049,Jean Barrette,True,1856
+1050,E.P Verlinde,False,0
+1051,Marzieh Farhang,False,0
+1052,Barry G. Ritchie,False,0
+1053,Yiping Zhao,False,0
+1054,Robert Behringer,True,3835
+1055,Dr. M. Ranaul Islam,False,0
+1056,Feng Zhou,False,0
+1057,Yigal Meir,True,6918
+1058,Giovanni Amelino-Camelia,True,2612
+1059,Anthony Leonard,False,0
+1060,Martin Dressel,False,0
+1061,Donald Kouri,True,2667
+1062,Saša Mićanović,False,0
+1063,Dmitry Budker,False,0
+1064,B K Fujikawa,False,0
+1065,Thomas Schaefer,False,0
+1066,Jun Cao (曹俊),False,0
+1067,Roberto Casalbuoni,False,0
+1068,Cheng Chin,True,201
+1069,henry tye,False,0
+1070,Stephanie Reich,False,0
+1071,Kirill Bolotin,False,0
+1072,Zi Kang TANG,False,0
+1073,Paolo Gondolo,False,0
+1074,Jianping Lu,False,0
+1075,Shaun Lovejoy,False,0
+1076,Daniel ben-Avraham,False,0
+1077,A J Sievers,False,0
+1078,Ralph D Lorenz,False,0
+1079,Elisabetta Comini,False,0
+1080,Vladimir Buzek,False,0
+1081,Brahim Lounis,False,0
+1082,Roberto Merlin,True,4013
+1083,Eugene Terentjev,True,3231
+1084,Joel E. MOORE,False,0
+1085,Andre Longtin,False,0
+1086,Yang-Fang Chen,False,0
+1087,H.K. Moffatt,False,0
+1088,Pratik Majumdar,False,0
+1089,Ahmed Ali,True,2132
+1090,Yongli Gao,False,0
+1091,Glenn Horton-Smith,False,0
+1092,Zhigang Jiang,False,0
+1093,Gregory Gabadadze,True,1766
+1094,Ofek Birnholtz,False,0
+1095,Jian-Sheng Wang,False,0
+1096,Eric Gawiser,False,0
+1097,Marek Artur Abramowicz,False,0
+1098,Marvin Marshak,False,0
+1099,Elliott Brown,True,221
+1100,Jan van Ruitenbeek,False,0
+1101,Paolo Zanardi,False,0
+1102,Mark Alford,False,0
+1103,Alexei Gruverman,False,0
+1104,Pramod Patil,False,0
+1105,Charles Gammie,False,0
+1106,Mahito Kohmoto,False,0
+1107,Luca Amendola,False,0
+1108,Richard A Jones,False,0
+1109,Vasiliki Pavlidou,False,0
+1110,Alexander Shluger,False,0
+1111,Johannes V.D. Wirjawan,False,0
+1112,Christoph Simon,True,2947
+1113,Nikita Nekrasov,True,4847
+1114,Antonello Polosa,False,0
+1115,Germà Garcia-Belmonte,False,0
+1116,paul brumer,False,0
+1117,Juan Garcia-Bellido,False,0
+1118,Rajarshi Roy,False,0
+1119,Tomasz Fiutowski,False,0
+1120,James E. Lawler,False,0
+1121,Zhiyong Zhang,False,0
+1122,Philip G. Collins,False,0
+1123,S. T. Megeath,False,0
+1124,Vladimir Dyakonov,False,0
+1125,Shabat AB,False,0
+1126,Sergienko AV,False,0
+1127,Gil Holder,False,0
+1128,Yung Woo Park,True,257
+1129,Martin Rocek,True,406
+1130,Nanfang Yu,False,0
+1131,Eric Toberer,False,0
+1132,Mervyn Miles,False,0
+1133,Ilpo Vattulainen,False,0
+1134,Erwin Frey,True,3731
+1135,Ralph Gebauer,False,0
+1136,Wolfgang Lorenzon,False,0
+1137,Yuko OKAMOTO (岡本祐幸),False,0
+1138,Katherine Freese,True,9033
+1139,mark donelan,False,0
+1140,Avnindra K Singh,False,0
+1141,Daniel McIntosh,False,0
+1142,Kenneth Schafer,False,0
+1143,T. Timusk,False,0
+1144,David Andelman,True,769
+1145,Michael Ritzwoller,False,0
+1146,Bela Fejer,False,0
+1147,Balantekin,False,0
+1148,Ted Jacobson,True,4049
+1149,Rute A S Ferreira,False,0
+1150,Yulin Chen (陈宇林）,False,0
+1151,Liu Chen,True,2898
+1152,Michael Schick,True,3112
+1153,Abhirup Ghosh,False,0
+1154,Dr. Rashid Jalil,False,0
+1155,David I. Schuster,False,0
+1156,J. Anthony Tyson,True,3276
+1157,Young-June Kim,False,0
+1158,Ahmed  Al-Jamel,False,0
+1159,Zoltan Kunszt,False,0
+1160,Raymond Pierrehumbert,True,6007
+1161,Prof. Kamal Singh,False,0
+1162,Peter Wurz,False,0
+1163,Collin Broholm,False,0
+1164,Vitor Cardoso,False,0
+1165,Antonio Gomes Souza Filho,False,0
+1166,Elias Kiritsis,False,0
+1167,Hongming Weng,False,0
+1168,Bruce Harmon,False,0
+1169,Jason Steffen,False,0
+1170,Jos Spaan,False,0
+1171,Andrea J.  Liu,False,0
+1172,Richard Bowtell,False,0
+1173,Mark W Matsen,False,0
+1174,Riccardo Ferrando,False,0
+1175,gaya prasad ,False,0
+1176,G R Stewart,False,0
+1177,Ji-Seon Kim,True,5942
+1178,Stefano Giorgini,False,0
+1179,Arthur Kosowsky,False,0
+1180,Alex Gurevich,True,228
+1181,Han-Xin Yang,False,0
+1182,Francesco Sannino,True,3591
+1183,Anatoly Zvezdin,False,0
+1184,Gandini Wheeler-Kingshott,False,0
+1185,Jimmy Xu,False,0
+1186,shibata masaru,False,0
+1187,Kevin E. Schmidt,False,0
+1188,Marek Karliner,False,0
+1189,Manoj Kaplinghat,False,0
+1190,David M. Smith,True,3861
+1191,Paolo Coppi,False,0
+1192,Richard Holmes,True,1358
+1193,Zhang wenbin,False,0
+1194,Antonio J. Cuesta,False,0
+1195,Mark Joseph Devlin,False,0
+1196,Friedrich W. Hehl,False,0
+1197,Franco Cacialli,True,1628
+1198,Stephan Narison,True,7519
+1199,Ching-Hwa Kiang,False,0
+1200,Christian Pfleiderer,False,0
+1201,W. Krolikowski,False,0
+1202,Samvel Ter-Antonyan,False,0
+1203,Gregory W. Hammett,False,0
+1204,Hartmut Zabel,False,0
+1205,Carsten Rockstuhl,False,0
+1206,Giuseppina Anzivino,False,0
+1207,Hubert Saleur,False,0
+1208,D B Melrose,False,0
+1209,Hao Zhang,True,186
+1210,Lindley Winslow,False,0
+1211,David London,True,202
+1212,Sougato Bose,False,0
+1213,Jose A. SOBRINO,False,0
+1214,Charles Gale,False,0
+1215,Suneel Singh,False,0
+1216,David Nitz,False,0
+1217,Guido Fratesi,False,0
+1218,Rajendra Singh,True,17728
+1219,Yele Sun,False,0
+1220,Dong Qian(钱冬),False,0
+1221,Herman Verlinde,True,1625
+1222,James D. Klett,False,0
+1223,Martin Zwierlein,True,952
+1224,J Kapusta,False,0
+1225,Guowen Meng,False,0
+1226,Paul Frampton,True,11863
+1227,Kwong Lau,False,0
+1228,Yuri Mishin,False,0
+1229,Patrick Morrissey,True,688
+1230,Christopher A. Fuchs,False,0
+1231,Christine Davies,True,9473
+1232,Lis Wollesen de Jonge,False,0
+1233,David Gordon Stroud,False,0
+1234,Stefano Longhi,False,0
+1235,J. S. SINGH,False,0
+1236,Dragan Huterer,False,0
+1237,Thomas A. Klar,False,0
+1238,Walter Lambrecht,False,0
+1239,zheltikov,False,0
+1240,David A. Williams,True,2481
+1241,Ben Allanach,False,0
+1242,Mastrogiovanni Simone,False,0
+1243,Peter Müller-Buschbaum,False,0
+1244,Andrea Merloni,False,0
+1245,Jess H. Brewer,False,0
+1246,Nikolay Prokofiev,False,0
+1247,andrea miglio,False,0
+1248,Vivek Singh,True,831
+1249,Andrea Damascelli,False,0
+1250,Darko Veberic,False,0
+1251,Jiangping Hu,False,0
+1252,Johan Bijnens,False,0
+1253,David Keith,True,20714
+1254,Charles Thorn,True,3419
+1255,Oleksii Ivanytskyi,False,0
+1256,Ali Hani Chamseddine,False,0
+1257,Changsong Zhou,False,0
+1258,Thad G. Walker,False,0
+1259,Stephanie Tristram-Nagle,False,0
+1260,Sergej Flach,True,19738
+1261,Thomas Pichler,False,0
+1262,G.Ali Mansoori (www.uic.edu/~mansoori/),False,0
+1263,Susan Coppersmith,False,0
+1264,Paul Rochon,False,0
+1265,Jack Scudder,False,0
+1266,Omid Akhavan,False,0
+1267,Hulikal Krishnamurthy,False,0
+1268,John P. Finley,True,173
+1269,Ezra Newman,False,0
+1270,Bernhard Ketzer,False,0
+1271,Enzo Marinari,False,0
+1272,"Professor Jeremy M. Hutson, FRS",False,0
+1273,Chao-xing Liu,False,0
+1274,Halina Rubinsztein-Dunlop,True,15254
+1275,"A. P. Mills, Jr.",False,0
+1276,Albert Diaz-Guilera,False,0
+1277,Alexandre Tkatchenko,False,0
+1278,David Collins,True,1828
+1279,Stefan Schönert,False,0
+1280,Keun Soo Kim,False,0
+1281,Taylor L. Hughes,False,0
+1282,Ramaprabhu S,False,0
+1283,Tierui Zhang,False,0
+1284,Andrew Zangwill,False,0
+1285,Yu-Feng Li,False,0
+1286,Piers Coleman,True,4284
+1287,Daniel Gauthier,True,4487
+1288,Michael J. I. Brown,False,0
+1289,Lincoln D Carr,False,0
+1290,H. A. Weaver,False,0
+1291,Holger J. Pletsch,False,0
+1292,Jorge Rocca,False,0
+1293,Jan Schmidt,True,1874
+1294,Ryan Rohm,True,3042
+1295,Ruslan Prozorov,False,0
+1296,Robert Vincent,True,623
+1297,Marco Maggiora,False,0
+1298,Tien Tzou Tsong,False,0
+1299,Wanda Andreoni,False,0
+1300,Attila Szolnoki,False,0
+1301,Richard Superfine,False,0
+1302,Jason Petta,False,0
+1303,JunHo Kim,False,0
+1304,Antonio Capone,False,0
+1305,Lutz Schweikhard,False,0
+1306,Vittorio Loreto,False,0
+1307,Neal Weiner,False,0
+1308,James Rosenzweig,False,0
+1309,Vincenzo Fiorentini,False,0
+1310,David Goldhaber-Gordon,False,0
+1311,David DeMille,True,4130
+1312,Anders Brahme,False,0
+1313,Jiajie Ling,False,0
+1314,Edgar Knobloch,True,3576
+1315,juergen christen,False,0
+1316,Ni Ni (倪霓),False,0
+1317,Shutao Wang,False,0
+1318,Matt A Bernstein,False,0
+1319,Richard Palmer,True,871
+1320,Michael G. Raymer,False,0
+1321,Wilson Ho,False,0
+1322,Richard Scalettar,False,0
+1323,Kazuo A. tanaka,False,0
+1324,Steffen Schumann,False,0
+1325,G. Vignale,False,0
+1326,Martin Meedom Nielsen,False,0
+1327,Ryotaro Arita,False,0
+1328,Robert J. Marks II,True,28001
+1329,Guido Burkard,False,0
+1330,Vasily Ramensky,False,0
+1331,SK Singh,False,0
+1332,Christoph Becher,False,0
+1333,José Rivas,True,539
+1334,Dr. A. A. Mamun,False,0
+1335,Pavel Krapivsky,False,0
+1336,Herbert Neuberger,False,0
+1337,Bei-Lok Hu,False,0
+1338,Norbert Lutkenhaus,False,0
+1339,Said F. Mughabghab,False,0
+1340,Andrew Steane,True,2552
+1341,Orfeu Bertolami,True,2756
+1342,Michael A. DuVernois,False,0
+1343,Ludovic Berthier,False,0
+1344,Patrick Newell,True,8002
+1345,Norman Zabusky,True,6491
+1346,Dan R Baker,False,0
+1347,Tal Alexander,False,0
+1348,Lowell S Brown,False,0
+1349,Qimiao Si,False,0
+1350,Ton G van Leeuwen,False,0
+1351,Thomas Karl,False,0
+1352,Duncan Steel,True,11607
+1353,Peter J.  Hirschfeld,False,0
+1354,Andrea Cavalleri,False,0
+1355,Stefan Andersson-Engels,False,0
+1356,suresh patel,False,0
+1357,Michael Miller,True,2691
+1358,Senentxu Lanceros-Mendez,False,0
+1359,Rana Biswas,False,0
+1360,Michael Holst,False,0
+1361,Michael Mehl,False,0
+1362,Su-Yang Xu,False,0
+1363,Steven Edward BOGGS,False,0
+1364,Hans Jørgen Aagaard Jensen,False,0
+1365,Shining Zhu (S.N. Zhu),False,0
+1366,Anand Sengupta,False,0
+1367,Yaron Oz,True,3303
+1368,Sam Hess,False,0
+1369,Bill Dorland,False,0
+1370,Dragomir Neshev,False,0
+1371,Thomas G. Mason,False,0
+1372,Lucio Claudio Andreani,False,0
+1373,Hans Peter Lang,False,0
+1374,Marcus Aldén,False,0
+1375,Seongil Im,False,0
+1376,Yosi Yeshurun,False,0
+1377,Philip Stier,False,0
+1378,Eleftherios Goulielmakis,True,5333
+1379,Dr. A A Mamun,False,0
+1380,Dandan Wang,False,0
+1381,Enno van der Velde,False,0
+1382,Ehsan Samei,False,0
+1383,Marcos Rigol,False,0
+1384,Andrey Y Shevel,False,0
+1385,Hai-Ping Cheng,False,0
+1386,Boris Svistunov,True,7158
+1387,Gunnar Bali,False,0
+1388,Ashot Chilingarian,True,9395
+1389,Stephen A. Fulling,False,0
+1390,Per Kraus,False,0
+1391,HTC Stoof,False,0
+1392,Marco Buongiorno Nardelli,False,0
+1393,A. Toncelli,False,0
+1394,Hugon Karwowski,False,0
+1395,Catherine Stampfl,False,0
+1396,Wenjie Shen,False,0
+1397,Duilia F. Demello,False,0
+1398,Ruben Perez,True,250
+1399,Stephen Thorsett,True,6361
+1400,Chorng Haur Sow,False,0
+1401,Jiang Li,False,0
+1402,Henrik Jeldtoft Jensen,False,0
+1403,Sebastien lecommandoux,False,0
+1404,Fausto Rossi,True,651
+1405,Zygmunt Gryczynski,False,0
+1406,David Cobden,False,0
+1407,G Strijkers,False,0
+1408,Kimball Milton,False,0
+1409,Nikolai Piskunov,False,0
+1410,Mark Jarrell,False,0
+1411,Augusto Sagnotti,True,10621
+1412,Alessandro Vicini,False,0
+1413,James Gole,False,0
+1414,Roberto Paolo Luigi Caporali,False,0
+1415,Ari Laor,False,0
+1416,Dario Alfe,False,0
+1417,Kristian Sommer Thygesen,False,0
+1418,C* M* Zicovich*,False,0
+1419,Mats Andre,False,0
+1420,Giulio Biroli,False,0
+1421,Renato Renner,False,0
+1422,Michael A Reshchikov,False,0
+1423,Guy Deutscher,True,611
+1424,Jari Turunen,False,0
+1425,Cristiano Ciuti,False,0
+1426,Moshe Deutsch,False,0
+1427,Maria D. Baro,False,0
+1428,Haiyan Gao,False,0
+1429,Priyamvada Natarajan,True,7642
+1430,Na Liu,True,1690
+1431,Dovi Poznanski,False,0
+1432,Alan Murray,True,519
+1433,Kurt Busch,True,171604
+1434,Wenbo Wang,True,191
+1435,David Broido,False,0
+1436,Christoph Adami,True,224
+1437,Huey W. Huang,False,0
+1438,Franz J. Giessibl,True,209
+1439,Antony Lomax,False,0
+1440,Lev Vaidman,True,7114
+1441,Angelos Vourlidas,False,0
+1442,David Campbell,True,3594
+1443,Anil Kumar,True,30067
+1444,Peter Hoeflich,False,0
+1445,Vladan Vuletic,False,0
+1446,Alexander V Panfilov,False,0
+1447,Liang Jiang,False,0
+1448,Martin van Exter,False,0
+1449,Jonathan Sievers,False,0
+1450,Kenneth Libbrecht,True,226
+1451,Andrei Kirilyuk,False,0
+1452,Dr.R. Rama Kumar,False,0
+1453,Matthias Weidemüller,False,0
+1454,Dumitru Mihalache,False,0
+1455,Allen Boozer,True,1792
+1456,Kenneth Intriligator,False,0
+1457,Umar Mohideen,False,0
+1458,Peter Arnold,True,934
+1459,Franco Dalfovo,False,0
+1460,Sam Lofland,False,0
+1461,Polycarpos Pissis,False,0
+1462,Jodi Cooley,False,0
+1463,Eli Barkai,True,1785
+1464,Ulf Kleineberg,False,0
+1465,Madhu Menon,False,0
+1466,Tönu Pullerits,False,0
+1467,Xiuwan Li,False,0
+1468,Eric R. Weeks,False,0
+1469,J. E. Rowe,False,0
+1470,Xavier Golay,False,0
+1471,John M. Doyle,False,0
+1472,Joachim Krug,False,0
+1473,Philip Hofmann,True,213
+1474,Poul Olesen,False,0
+1475,Elizabeth Simmons,False,0
+1476,Krzysztof Golec-Biernat,False,0
+1477,Greco Mario,False,0
+1478,Tadashi Takayanagi,False,0
+1479,Vijayakumar K. P,False,0
+1480,Robert van Leeuwen,False,0
+1481,Marian Paluch,False,0
+1482,Michael J. Hudson,False,0
+1483,Chris ODea,True,237
+1484,Anthony G Williams,False,0
+1485,Ilya Belopolski,False,0
+1486,Syed B. (Burhanullah) Qadri,False,0
+1487,Jeppe C. Dyre,False,0
+1488,Lado Samushia,False,0
+1489,Ana Maria Mourao,False,0
+1490,Michael Gershenson,False,0
+1491,John F. Donegan,False,0
+1492,Aldo Deandrea,False,0
+1493,Peter Grutter,True,254
+1494,Pavel Exner,True,3381
+1495,Noam Soker,True,9232
+1496,David Eichler,False,0
+1497,Hong Liu,True,197
+1498,Derek Leinweber,False,0
+1499,Eva   Y Andrei,False,0
+1500,Jaime E. Villate,False,0
+1501,Konstantin Sokolov,True,1942
+1502,Sham Malik,False,0
+1503,Svante Svensson,False,0
+1504,H Hora,False,0
+1505,Dick Sterenborg,False,0
+1506,Steven Gross,False,0
+1507,Bae Ho Park,False,0
+1508,Yanting Wang,False,0
+1509,Thomas Pertsch,False,0
+1510,Dr. M. Venkatesan,False,0
+1511,Jason Pinkney,False,0
+1512,Rocco Schiavilla,False,0
+1513,Christos Likos,False,0
+1514,justin wark,False,0
+1515,Michael Patten Carpenter,False,0
+1516,Valery Nakariakov,False,0
+1517,G Reiss,False,0
+1518,Nicolao Fornengo,True,3816
+1519,David Jou,False,0
+1520,Joost Frenken,False,0
+1521,Bernd A Berg,False,0
+1522,Luis Oliveira e Silva,False,0
+1523,Yaroslav Tserkovnyak,False,0
+1524,Wolfgang Langbein,False,0
+1525,Jean Pierre Boon,False,0
+1526,Randy Ellingson,False,0
+1527,Lie-Wen Chen,False,0
+1528,Professor R N P Choudhary,False,0
+1529,Giovanni Onida,False,0
+1530,Heikki Junninen,False,0
+1531,Gerhard H. Fecher,False,0
+1532,S  M Hayden,False,0
+1533,Michael C. Zarnstorff,False,0
+1534,Emilio Mendez,False,0
+1535,Peter H. Poole,False,0
+1536,Geert Brocks,False,0
+1537,Yu Chen,True,191
+1538,Andrzej L. Sobolewski,False,0
+1539,Jonathan Menard,False,0
+1540,Antonio Badolato,False,0
+1541,Richard Canfield,True,228
+1542,Yuri Kovchegov,True,2821
+1543,Andrew D. Jackson,False,0
+1544,Stephen Arnold,True,220
+1545,"Dr. R. Arun Kumar, M.Sc., Ph.D.",False,0
+1546,Andreas Karch,False,0
+1547,Ryan Nichol,False,0
+1548,Gary Shiu,False,0
+1549,Kaixuan Ni （倪凯旋）,False,0
+1550,Nikolaos Kidonakis,False,0
+1551,Manfred Helm,False,0
+1552,Tamara Maree Davis,False,0
+1553,Eric B. Sirota,False,0
+1554,Arthur Hebecker,False,0
+1555,Philip Amuyunzu Mang'are,False,0
+1556,Christoph Dellago,False,0
+1557,Miguel Alexandre Lopes Marques,False,0
+1558,Nimrod Moiseyev,False,0
+1559,Kristjan Haule,False,0
+1560,William A Lanford,False,0
+1561,Imre Derenyi,False,0
+1562,M. Sami,False,0
+1563,G. W. Collins,False,0
+1564,Ken Ritchie,True,2714
+1565,Rajiv R. P. Singh,False,0
+1566,Alex MacKay,False,0
+1567,M. Thewalt,False,0
+1568,Anna Köhler,True,628
+1569,nick quirke,False,0
+1570,Robert G. Leigh,False,0
+1571,Noriaki Itoh,False,0
+1572,Mihaly Horanyi,False,0
+1573,Arthur Peeters,False,0
+1574,V. M. Kenkre,False,0
+1575,Ralph E. Pudritz,False,0
+1576,Riccardo Zecchina,False,0
+1577,K. T. Ramakrishna Reddy,False,0
+1578,Michael Tobar,False,0
+1579,Valerio Faraoni,False,0
+1580,Richard VE Lovelace,False,0
+1581,K S Cheng,False,0
+1582,Sarkis Taroian,False,0
+1583,Sulabha K Kulkarni,True,308
+1584,Henrik Bruus,False,0
+1585,"Wolfgang A. Tomé, Ph.D., FAAPM, FASTRO",False,0
+1586,Alexei Ivlev,False,0
+1587,Jan de Boer,True,732
+1588,Donald Umstadter,False,0
+1589,Li Yang,True,994
+1590,Dr Pawan Singh Rana,False,0
+1591,Othmar Marti,False,0
+1592,Peter Oppeneer,False,0
+1593,Ruth Durrer,False,0
+1594,Dr. Muhammad Ajaz Assistant professor of Physics,False,0
+1595,Friedrich C. Simmel,False,0
+1596,Claudia Draxl,False,0
+1597,Eugene Kotomin,False,0
+1598,V.P. Gusynin,False,0
+1599,Richard Woodard,False,0
+1600,Susana Huelga,False,0
+1601,Richard Zallen,False,0
+1602,Christian Kurtsiefer,False,0
+1603,David L. Buckley,False,0
+1604,Gilberto Colangelo,False,0
+1605,Nikolai Nikolaev,True,244
+1606,W. Patrick Arnott,False,0
+1607,Jose M. Gomez-Rodriguez,False,0
+1608,Michael Kneissl,True,924
+1609,Ulrich S. Schwarz,False,0
+1610,John Strom-Olsen,False,0
+1611,Glenn Starkman,False,0
+1612,Donald Marolf,True,1681
+1613,Yuri Izotov,False,0
+1614,Joakim Edsjö,True,2924
+1615,Alexander Szameit,False,0
+1616,Eanna Flanagan,False,0
+1617,Marco Zaro,False,0
+1618,Nora Brambilla,False,0
+1619,GianCarlo Ghirardi,False,0
+1620,Patricia Mooney,False,0
+1621,Gordon A. Thomas,False,0
+1622,Leonid Pastur,True,4449
+1623,Murray Holland,False,0
+1624,Oliver Benson,False,0
+1625,Zhiguo Xia / 夏志国,False,0
+1626,Robert F O'Connell,False,0
+1627,Mikhail Kats,False,0
+1628,Anupam Garg,True,2109
+1629,Wolfgang von der Linden,False,0
+1630,Rajan Kumar,False,0
+1631,Vitaly Podzorov,False,0
+1632,Pradeep Kumar,True,7911
+1633,Andrea Young,False,0
+1634,Vanik Kakoyan,False,0
+1635,Paul Meredith,False,0
+1636,Artem Rudenko,False,0
+1637,Peter Lambropoulos,False,0
+1638,Per Moldrup,False,0
+1639,Panayiotis Varotsos,False,0
+1640,Timothy J Hall,False,0
+1641,FA Garner,False,0
+1642,Jeff Hartnell,False,0
+1643,Matthias Müller-Fischer,False,0
+1644,Matthias Batzill,False,0
+1645,jan aarts,False,0
+1646,S Ismat Shah,False,0
+1647,Lorenza Viola,False,0
+1648,Jure Zupan,True,2862
+1649,Gang Cao (G. Cao),False,0
+1650,Dr. Jayanth Kumar. A,False,0
+1651,Michael C. Downer,False,0
+1652,Winfried Petry,False,0
+1653,Vanicek Jiri,False,0
+1654,Joseph Nordgren,True,2412
+1655,Adilson E. Motter,True,9305
+1656,Hakan Rensmo,False,0
+1657,Isaac Silvera,False,0
+1658,Aephraim Steinberg,False,0
+1659,Emil Prodan,False,0
+1660,Wim Ubachs,True,1010
+1661,David Blaschke,False,0
+1662,Ivan Shvetsov,False,0
+1663,Per Delsing,False,0
+1664,Prasanta Kumar Das,False,0
+1665,Mingliang Ye,False,0
+1666,Latha Venkataraman,False,0
+1667,Joseph Shinar,False,0
+1668,Claudio Pellegrini,True,8085
+1669,Mark Saffman,False,0
+1670,Anthony M Fox,False,0
+1671,Paolo Grigolini,False,0
+1672,Björgvin Hjörvarsson,False,0
+1673,Christopher Herzog,False,0
+1674,christian fronsdal,False,0
+1675,Jeffrey P. Filippini,False,0
+1676,Wouter-Jan Rappel,False,0
+1677,Xavier MARIE,False,0
+1678,Eva Olsson,True,1413
+1679,Mitch Pindzola,False,0
+1680,Jianhua Hao （郝建华）,False,0
+1681,Xin Qian,False,0
+1682,GIOVANNI FIORENTINI,False,0
+1683,Paul Kushner,False,0
+1684,Lars Stixrude,False,0
+1685,Mehmet Acet,False,0
+1686,Malcolm Dunn,False,0
+1687,Bradford Orr,False,0
+1688,Marco Fanciulli,False,0
+1689,Stefan Bornholdt,False,0
+1690,Philipp Werner,False,0
+1691,Shu-ichiro Inutsuka,False,0
+1692,Georg Korn,False,0
+1693,Shirley Chiang,False,0
+1694,TJ Senden,False,0
+1695,Lars Börjesson,False,0
+1696,Kyrill Bugaev,False,0
+1697,Rahul Sarpeshkar,True,10953
+1698,Stephan Schiller,False,0
+1699,Robert Camley,False,0
+1700,Darin Ragozzine,False,0
+1701,Hyeonsik Cheong,False,0
+1702,Paolo Milani,False,0
+1703,Nemanja Kaloper,False,0
+1704,Pierre Berini,False,0
+1705,Sarah D. Johnson,False,0
+1706,Nathalie Q Balaban,False,0
+1707,Peter K.H. Ho,False,0
+1708,Hongqi Xu (H. Q. Xu),False,0
+1709,Sriram Ramaswamy,True,9424
+1710,Stephen Evans,True,217
+1711,Jerzy Lewandowski,False,0
+1712,Alan Dalton,False,0
+1713,Vladimir V Konotop,False,0
+1714,Juan Pablo Paz,True,2695
+1715,Andrew Doherty,False,0
+1716,Eli Zeldov,False,0
+1717,Qiang Shen,True,204
+1718,Laszlo Peter Biro,False,0
+1719,Shaon Ghosh,False,0
+1720,Ron Naaman,False,0
+1721,Robert Spreeuw,False,0
+1722,Jairo Alexis Rodriguez L (orcid.org/0000-0003-1895-9319),False,0
+1723,G. Mark Voit,True,3071
+1724,Jean-Michel Nunzi,False,0
+1725,Douglas R. Bergman,False,0
+1726,Steve Cowley,True,204
+1727,José Menéndez,False,0
+1728,Anne Kahru,False,0
+1729,Jens Juul Rasmussen,False,0
+1730,Louis Strigari,False,0
+1731,Fabian Essler,False,0
+1732,Raffi Nazikian,False,0
+1733,Dimitri Frantzeskakis,False,0
+1734,Henning Voss,False,0
+1735,Detlef Müller,True,6699
+1736,Debra Dewhurst (nee Lumb),False,0
+1737,Peter K N Yu,False,0
+1738,Emmanuel Paschos,False,0
+1739,Jaejun Yu,True,5321
+1740,Kenneth Crozier,False,0
+1741,Prof.Yangjian Cai (蔡阳健),False,0
+1742,Junichiro Kono,True,50288
+1743,A.K.M.A. Islam,False,0
+1744,Huiru Tang,False,0
+1745,Gary Morriss,False,0
+1746,Allan N Kaufman,False,0
+1747,Marian Boguña,False,0
+1748,Wolfhard Janke,False,0
+1749,Soo-Jong Rey,False,0
+1750,William G. Lynch,False,0
+1751,Daniel V. Schroeder,False,0
+1752,Geoffrey Smith,True,1286
+1753,Brian Metzger,False,0
+1754,Lars Brink,True,3883
+1755,Dennis C Rapaport,False,0
+1756,Mikhail J. Shashkov,False,0
+1757,G.A. Wade,False,0
+1758,Ravi Pratap Singh,False,0
+1759,Georg von Freymann,False,0
+1760,Bennett Goldberg,False,0
+1761,Dave Kielpinski,False,0
+1762,Gerardo Adesso,False,0
+1763,John E. Thomas,True,4271
+1764,Carlos Bertulani,True,8491
+1765,Wei Bao,True,1264
+1766,Kevin Kit Parker,True,166
+1767,Robert Fesen,False,0
+1768,jack feinberg,False,0
+1769,Jakob Reichel,False,0
+1770,Salvatore Stagira,False,0
+1771,David A. Gates,False,0
+1772,Jianmin Tao,False,0
+1773,Graham Kribs,False,0
+1774,Oleg Kochukhov,False,0
+1775,Michael Cushing,False,0
+1776,Robert Beichner,False,0
+1777,Douglas Natelson,False,0
+1778,Garth M. Huber,False,0
+1779,Frieder Mugele,False,0
+1780,John R Cary,False,0
+1781,Scott K. Holland,False,0
+1782,Juha Javanainen,False,0
+1783,Jianwei (John) Miao,False,0
+1784,"Seehra, M. S.",False,0
+1785,Kevin Lehmann,False,0
+1786,Dario Vretenar,False,0
+1787,Victor Dodonov,False,0
+1788,Csaba Balazs,False,0
+1789,Michael F. Brown,True,2916
+1790,Gergely Palla,False,0
+1791,Karsten Flensberg,False,0
+1792,Carl E. Carlson,False,0
+1793,Hrvoje Petek,False,0
+1794,"Li, Jiali",False,0
+1795,Michael J Rust,False,0
+1796,Jeff Squier,False,0
+1797,Martin Schmaltz,False,0
+1798,Kestutis Pyragas,False,0
+1799,Bernd Kärcher,False,0
+1800,Johannes Courtial,False,0
+1801,Peter Storey,True,33028
+1802,Victor Steinberg,False,0
+1803,Francesc Salvat,False,0
+1804,Emmanuel N. Saridakis,False,0
+1805,Dan M. Watson,False,0
+1806,Kaustubh Agashe,False,0
+1807,Sean Dobbs,False,0
+1808,DaiSik Kim,False,0
+1809,Adrienn Ruzsinszky,False,0
+1810,Austin J. Minnich,False,0
+1811,John Briggs,True,1588
+1812,Reuven Chen,False,0
+1813,Michael Shay,False,0
+1814,Jeffrey Klein,True,819
+1815,Yuri Pashkin,False,0
+1816,Ritsch Helmut,False,0
+1817,William R. Stockwell,False,0
+1818,Marie-Louise Saboungi,False,0
+1819,Gerhard Glatting,False,0
+1820,James Larkin,True,35123
+1821,ROBERT JOYNT,False,0
+1822,Philip J Morrison,False,0
+1823,Rhiju Das,True,4971
+1824,吴 兴龙,False,0
+1825,I.L. Buchbinder,False,0
+1826,Joshua Gordon,True,4124
+1827,Volodymyr M. Gun'ko (Володимир Мусійович Гунько),False,0
+1828,Matthew Collett,False,0
+1829,R. J. Furnstahl,False,0
+1830,Jan Blaha,True,1304
+1831,Arnold Burger,False,0
+1832,Gary W. Slater,False,0
+1833,Vladimir Marchenko,True,4149
+1834,Philip C. Nelson,False,0
+1835,"J.A. Vanfossen, Jr.",False,0
+1836,Dipangkar Dutta,False,0
+1837,Yuriy V. Pershin,False,0
+1838,zhiguo zhang,False,0
+1839,Shun-Qing Shen,False,0
+1840,Ehud Altman,False,0
+1841,alessandro torricelli,False,0
+1842,Vinay Gupta,True,10894
+1843,Lisa Young,True,204
+1844,Andrey A. Sukhorukov,False,0
+1845,Om Prakash Singh Negi,False,0
+1846,Muhammad Akram,True,5112
+1847,Alexandre Freundlich,False,0
+1848,Steve Greenbaum,False,0
+1849,Björn Lüssem,False,0
+1850,juha töyräs,False,0
+1851,Tomaz Prosen,False,0
+1852,Hal Tasaki,False,0
+1853,Marek Cieplak,False,0
+1854,Henning Friis Poulsen,False,0
+1855,H.C. Swart,False,0
+1856,Nicolas Yunes,False,0
+1857,Antonio De Felice,False,0
+1858,Tuomo Suntola,True,9284
+1859,Kenji FUKUSHIMA,False,0
+1860,Peter Reiter,True,1195
+1861,Uwe-Jens Wiese,False,0
+1862,lucio braicovich,False,0
+1863,Andrew A. Cole,False,0
+1864,Daniel Palanker,False,0
+1865,Jean-Pierre FAURIE,False,0
+1866,Aditya Sadhanala,False,0
+1867,Christoph Lienau,False,0
+1868,Mario Liu,False,0
+1869,Jorge L. Rodriguez,False,0
+1870,Supratik Mukhopadhyay,False,0
+1871,Claudio Conti,False,0
+1872,Nadia Zakamska,True,3356
+1873,Chris Gould,True,4442
+1874,David Dance,False,0
+1875,Terry Rudolph,False,0
+1876,Paul Krehbiel,False,0
+1877,Elizabeth M George,False,0
+1878,Kunihito Ioka,False,0
+1879,Moseler Michael,False,0
+1880,Theo Odijk,False,0
+1881,Qing He,False,0
+1882,Alexander Schekochihin,False,0
+1883,Ludger Wirtz,False,0
+1884,John Lucey,False,0
+1885,Haojing Yan,False,0
+1886,Pedro Andreo,False,0
+1887,XG Zhang,False,0
+1888,Roland Kawakami,False,0
+1889,Sergei Shandarin,False,0
+1890,Martin Hegner,False,0
+1891,Tobin Fricke,False,0
+1892,Eric D'Asaro,False,0
+1893,tito arecchi,False,0
+1894,Peter Schmelcher,False,0
+1895,David Newman,True,1220
+1896,Peter Bobbert,False,0
+1897,Juan P. Garrahan,False,0
+1898,Jan Michael Rost,False,0
+1899,Millot G,False,0
+1900,Iouri Chepelev,False,0
+1901,F. C. Wellstood,False,0
+1902,Giulio Monaco,True,2957
+1903,Frederick Cummings,False,0
+1904,Jorge Pullin,True,15185
+1905,Nicholas Scott,True,8162
+1906,Tobi Delbruck,False,0
+1907,Changyoung Kim,False,0
+1908,Hong X. Tang,False,0
+1909,Walter H Backes,False,0
+1910,D. McK. Paul,False,0
+1911,Milan Vanecek,False,0
+1912,Didier Poilblanc,False,0
+1913,Sung Ha Park,False,0
+1914,George Lolos,False,0
+1915,Daniel Prober,False,0
+1916,Leo C. Stein,False,0
+1917,K. Sreenivas,False,0
+1918,Konstantin Vodopyanov,False,0
+1919,Kyriakos tamvakis,False,0
+1920,Alan T. Dorsey,False,0
+1921,Dejan B Milosevic,False,0
+1922,Jinlun Zhang,False,0
+1923,Andrea Lancichinetti,False,0
+1924,Lilian Childress,False,0
+1925,harm hinrich rotermund,False,0
+1926,Friedrich Aumayr,False,0
+1927,Hideo Higuchi,False,0
+1928,Heiko Rieger,False,0
+1929,David Horn,True,214
+1930,Steven M. Anlage,False,0
+1931,Frank Jahnke,False,0
+1932,George Batrouni,False,0
+1933,Mark A. Novotny,False,0
+1934,giuseppe sansone,False,0
+1935,Christopher Homes,False,0
+1936,Michel Fich,False,0
+1937,Sung Heum Park,False,0
+1938,Lorne Whitehead,False,0
+1939,Konstantinos Makris,False,0
+1940,Thomas Röckmann,False,0
+1941,pasquale sodano,False,0
+1942,David Tong,True,675
+1943,jerzy jurkiewicz,False,0
+1944,Dijana Dominis Prester,False,0
+1945,Adrian Kent,False,0
+1946,Baojun Chen-陈宝君,False,0
+1947,Tamas Tel,False,0
+1948,Junru Wu,False,0
+1949,Young Kuk,False,0
+1950,Jay Fineberg,False,0
+1951,Martin Grant,False,0
+1952,John Wygant,False,0
+1953,Debashish Chowdhury,False,0
+1954,Yasuhiro Tokura,False,0
+1955,JUNG HWA SEO,False,0
+1956,Alexey A Petrov,True,254
+1957,Michael Cherry,True,4096
+1958,Rene van Roij,False,0
+1959,Tao Xiang,False,0
+1960,Jo Verbeeck,False,0
+1961,m. -c. chu,False,0
+1962,Hidetoshi Akimune,False,0
+1963,Dongqing Wei,False,0
+1964,Hermann Dürr,False,0
+1965,Kui-Qing Peng,False,0
+1966,Guang-Han Cao,False,0
+1967,Arno Rauschenbeutel,False,0
+1968,Alice Quillen,False,0
+1969,Yongzhong Qian,False,0
+1970,Patrice Melinon,False,0
+1971,Bahram Mashhoon,True,2392
+1972,Ilan Koren,False,0
+1973,David Nikogosyan,False,0
+1974,Prof. P. Ravindran,False,0
+1975,David Armstrong,True,1662
+1976,Björn Manuel Hegelich,False,0
+1977,Jens Koch,False,0
+1978,Ian James Douglas MacGregor,False,0
+1979,Lomtadze Temur,False,0
+1980,C.G. Gray,False,0
+1981,Heather J. Patrick,False,0
+1982,Anthony Mezzacappa,False,0
+1983,Matthias Hoek,False,0
+1984,Anders Eriksson,True,756
+1985,David Bowler,False,0
+1986,Ramy El-Ganainy,False,0
+1987,Timo Sajavaara,False,0
+1988,Abraham Katzir,True,4237
+1989,Miguel F Morales,False,0
+1990,Sorin Solomon,False,0
+1991,Megan J Povey,False,0
+1992,Peter Palffy-Muhoray,False,0
+1993,Aneta Stefanovska,False,0
+1994,Michael Stavola,False,0
+1995,Anna Hasenfratz,False,0
+1996,Martin Makler,False,0
+1997,Peter Lodahl,False,0
+1998,P Henrik Alfredsson,False,0
+1999,Victor Galitski,False,0
