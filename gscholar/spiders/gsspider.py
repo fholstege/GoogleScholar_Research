@@ -100,7 +100,7 @@ class gsspider_class(scrapy.Spider):
 		return nextpage_link
 
 	def parse(self, response):
-
+		
 		# select the next page
 		next_page_select = 'button[aria-label="Next"]::attr(onclick)'
 		next_page = response.css(next_page_select).extract_first()
@@ -112,27 +112,29 @@ class gsspider_class(scrapy.Spider):
 
 			# object with professor profile 
 			profiles = 'div.gsc_1usr.gs_scl'
-
+			print(response.css(profiles))
 			# go through each profile 
 			for profile in response.css(profiles):
-
-			    # the selectors for profile name, text, and link to profile 
-			    name_link = 'h3 a::attr(href)'
-
-			    # get id of professors profile 
-			    prof_profile_id = profile.css(name_link).extract_first()
-
-			    # create link to profile using id
-			    link_profile = "https://scholar.google.com/" + prof_profile_id
-
-			    # entry to dataset with links
-			    self.link_entries.append(link_profile)
-
-			    # add to profile counter 
-			    self.curr_N_prof = self.curr_N_prof + 1
+				print('hello, I have collected the link of a profile!')
+				# the selectors for profile name, text, and link to profile 
+				name_link = 'h3 a::attr(href)'
+				
+				# get id of professors profile 
+				prof_profile_id = profile.css(name_link).extract_first()
+				
+				# create link to profile using id
+				link_profile = "https://scholar.google.com/" + prof_profile_id
+				
+				# entry to dataset with links
+				self.link_entries.append(link_profile)
+				
+				# add to profile counter
+				self.curr_N_prof = self.curr_N_prof + 1
 
 		# if there is a next page, and the max of professors searched has not been reached, go to next page
 		if next_page and self.curr_N_prof < self.max_prof:
+			print(self.curr_N_prof)
+			print(self.max_prof)
 
 			# get link to next page
 			link_next_page = self.acquire_link_nextpage(next_page)

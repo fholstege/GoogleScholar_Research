@@ -1,12 +1,13 @@
 library(dplyr)
 library(stargazer)
+library(ggplot2)
 
 
 # 1 = Physics
 # 2 = Economics
 # 3 = Philosophy
 gscholar = read.csv(
-  '~/Documents/oxford/PythonforSDS/GoogleScholar_Research/gscholar_complete_v2.csv',
+  '~/Documents/oxford/PythonforSDS/GoogleScholar_Research/gscholar_complete_v4.csv',
   na.strings=c("","NA")
 )
 
@@ -14,6 +15,7 @@ gscholar_sum = gscholar %>% filter(gender_prob > 0.9 & count_name > 10) %>%
   select(h.index,h5.index,n.citations,field,gender,wiki_bool) %>% 
   distinct() %>% mutate(field = as.factor(field)) %>% 
   filter(complete.cases(.))
+
 stargazer(gscholar_sum)
 
 hist(gscholar_sum$h.index)
@@ -76,4 +78,28 @@ hist(female_h_indexes)
 hist(male_h_indexes)
 
 t.test(x = female_h_indexes, y = male_h_indexes)
-                                                                     
+
+
+
+res = gscholar_sum %>% group_by(field, h.bucket = cut(h.index, breaks= c(
+  #0,5,10,15,20,
+  #40, 60, 300
+  #0,9,14,21,100, 260
+  0, 5, 10, 50, 100, 260
+  )), gender) %>% summarise(Wiki_ratio = sum(wiki_bool == 'True') / n(), n = n(),
+                            conf_min = binom.test( sum(wiki_bool == 'True') , n(), conf.level = 0.9 )$conf.int[1],
+                            conf_max = binom.test( sum(wiki_bool == 'True') , n(), conf.level = 0.9 )$conf.int[2]
+                            )
+
+gscholar_sum %>% group_by(field, gender) %>% summarise(Wiki_ratio = sum(wiki_bool == 'True') / n(), n = n())
+
+ggplot(res, aes(x = h.bucket, y = log(Wiki_ratio), color = gender, size = n, group = gender)) + geom_point(alpha = 0.6) + 
+  geom_line(size = 0.7, alpha = 0.5) + #geom_errorbar(aes(ymin = conf_min, ymax = conf_max), width = 0.1, size = 0.5) +
+  theme_bw() + facet_wrap(aes(field))
+
+ggplot(gscholar_sum %>% filter(gender == 'female'), aes(x = h.index)) + geom_histogram() + ggtitle('Hist Female h-indexes')
+
+quantile(gscholar_sum[gscholar_sum$gender == 'female',]$h.index)
+
+
+prop.test(2, 268)[6]
