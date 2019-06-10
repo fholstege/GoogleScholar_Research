@@ -103,5 +103,5 @@ AUTOTHROTTLE_TARGET_CONCURRENCY = 2.0
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 PROXY_MODE = 2
-http_proxy = "http://lum-customer-hl_f9982940-zone-googlescholar:r5wpoz0akid7@zproxy.lum-superproxy.io:22225"
-CUSTOM_PROXY = "http://lum-customer-hl_f9982940-zone-googlescholar:r5wpoz0akid7@zproxy.lum-superproxy.io:22225"
+http_proxy = 'secret
+CUSTOM_PROXY = 'secret'
