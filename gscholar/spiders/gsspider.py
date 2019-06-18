@@ -70,8 +70,7 @@ class gsspider_class(scrapy.Spider):
 				for row in reader:
 					base_url = row
 				
-				print('base url:')
-				print(base_url)
+				print('base url:', base_url)
 
 		# if there is no link in the csv, shut down spider and spit out explanation
 		if base_url == []:
@@ -111,11 +110,13 @@ class gsspider_class(scrapy.Spider):
 		else:
 
 			# object with professor profile 
-			profiles = 'div.gsc_1usr.gs_scl'
-			print(response.css(profiles))
+			profiles = 'div.gsc_1usr'#.gs_scl'
+
 			# go through each profile 
 			for profile in response.css(profiles):
+				
 				print('hello, I have collected the link of a profile!')
+
 				# the selectors for profile name, text, and link to profile 
 				name_link = 'h3 a::attr(href)'
 				
@@ -133,8 +134,8 @@ class gsspider_class(scrapy.Spider):
 
 		# if there is a next page, and the max of professors searched has not been reached, go to next page
 		if next_page and self.curr_N_prof < self.max_prof:
-			print(self.curr_N_prof)
-			print(self.max_prof)
+			print('current N of profs', self.curr_N_prof)
+			print('max N of profs', self.max_prof)
 
 			# get link to next page
 			link_next_page = self.acquire_link_nextpage(next_page)

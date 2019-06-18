@@ -11,13 +11,13 @@ from spiders.profspider import profspider
 N_links_perCrawl = 500
 
 # read the file with links
-file_withlinks = pd.read_csv('files/history_links.csv', sep=',')
+file_withlinks = pd.read_csv('files/master_links_GoogleScholar.csv', sep=',')
+print(file_withlinks.iloc[:,1])
  
 # list with links 
-links_to_crawl = file_withlinks['link'].tolist()
+links_to_crawl = file_withlinks.iloc[:,1].tolist()
 
 # the total N of links 
-#N_links= len(file_withlinks['link'])
 N_links = len(links_to_crawl) 
 
 # total of crawls 
